@@ -92,9 +92,9 @@ def enrich_emails(leads):
 
         try:
             resp = requests.post(
-                "https://api.prospeo.io/email-finder",
+                "https://api.prospeo.io/search-person",
                 headers={"X-KEY": PROSPEO_API_KEY, "Content-Type": "application/json"},
-                json={"full_name": full_name, "company": domain, "linkedin_url": linkedin_url},
+                json={"first_name": lead.get("first_name", ""), "last_name": lead.get("last_name", ""), "company": domain},
                 timeout=20,
             )
             resp.raise_for_status()
