@@ -39,14 +39,18 @@ def search_apollo_leads():
 
     while len(leads) < MAX_LEADS:
         try:
-            resp = requests.get(
-                "https://api.apollo.io/v1/people/search",
-                params={
-                    "api_key": APOLLO_API_KEY,
-                    "person_titles[]": ICP_TITLES,
-                    "q_keywords": " OR ".join(ICP_KEYWORDS),
-                    "person_locations[]": ICP_LOCATIONS,
-                    "organization_num_employees_ranges[]": ["1,500"],
+            resp = requests.post(
+                "https://api.apollo.io/v1/mixed_people/search",
+                headers={
+                    "Content-Type": "application/json",
+                    "Cache-Control": "no-cache",
+                    "X-Api-Key": APOLLO_API_KEY,
+                },
+                json={
+                    "person_titles": ICP_TITLES,
+                    "person_locations": ICP_LOCATIONS,
+                    "organization_num_employees_ranges": ["10,500"],
+                    "q_organization_keyword_tags": ICP_KEYWORDS,
                     "page": page,
                     "per_page": min(25, MAX_LEADS - len(leads)),
                 },
