@@ -1,0 +1,8 @@
+.env
+leads_raw.json
+leads_enriched.json
+heyreach_failed.json
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
