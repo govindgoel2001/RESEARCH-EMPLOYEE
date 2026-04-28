@@ -5,7 +5,6 @@ import subprocess
 import time
 import requests
 from datetime import date
-import anthropic
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -14,7 +13,6 @@ APOLLO_API_KEY = os.getenv("APOLLO_API_KEY")
 PROSPEO_API_KEY = os.getenv("PROSPEO_API_KEY")
 HEYREACH_API_KEY = os.getenv("HEYREACH_API_KEY")
 HEYREACH_CAMPAIGN_ID = os.getenv("HEYREACH_CAMPAIGN_ID")
-ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
 
 CSV_PATH = os.path.join(os.path.dirname(__file__), "leads.csv")
 CSV_HEADERS = [
@@ -22,8 +20,6 @@ CSV_HEADERS = [
     "company", "domain", "linkedin_url", "email",
     "personalized_dm", "heyreach_status", "notes",
 ]
-
-claude = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
 
 ICP_TITLES = [
     "Founder", "CEO", "CTO", "COO",
@@ -156,7 +152,7 @@ FALLBACK_DM = (
 )
 
 def personalize_dms(leads):
-    print("✍️  STEP 3 — Generating personalized DMs via Claude (humaniser)...")
+    print("✍️  STEP 3 — Generating personalized DMs via Claude CLI (humaniser)...")
 
     for lead in leads:
         first_name = lead.get("first_name", "there")
@@ -175,16 +171,18 @@ def personalize_dms(leads):
             "End with one soft question."
         )
 
+        full_prompt = HUMANISER_SYSTEM + "\n\n" + user_prompt
         try:
-            response = claude.messages.create(
-                model="claude-sonnet-4-6",
-                max_tokens=200,
-                system=HUMANISER_SYSTEM,
-                messages=[{"role": "user", "content": user_prompt}],
+            result = subprocess.run(
+                ["claude", "-p", full_prompt],
+                capture_output=True, text=True, timeout=60,
             )
-            lead["personalized_dm"] = response.content[0].text.strip()
+            if result.returncode == 0 and result.stdout.strip():
+                lead["personalized_dm"] = result.stdout.strip()
+            else:
+                raise RuntimeError(result.stderr.strip() or "empty response")
         except Exception as e:
-            print(f"  ⚠ Claude error for {first_name}: {e} — using fallback")
+            print(f"  ⚠ Claude CLI error for {first_name}: {e} — using fallback")
             lead["personalized_dm"] = FALLBACK_DM.format(
                 first_name=first_name, company=company
             )

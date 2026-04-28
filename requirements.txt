@@ -1,5 +1,4 @@
 requests
-anthropic
 python-dotenv
 gspread
 oauth2client
