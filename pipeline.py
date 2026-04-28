@@ -5,8 +5,8 @@ import subprocess
 import time
 import requests
 from datetime import date
+import anthropic
 from dotenv import load_dotenv
-from openai import OpenAI
 
 load_dotenv()
 
@@ -14,7 +14,7 @@ APOLLO_API_KEY = os.getenv("APOLLO_API_KEY")
 PROSPEO_API_KEY = os.getenv("PROSPEO_API_KEY")
 HEYREACH_API_KEY = os.getenv("HEYREACH_API_KEY")
 HEYREACH_CAMPAIGN_ID = os.getenv("HEYREACH_CAMPAIGN_ID")
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
 
 CSV_PATH = os.path.join(os.path.dirname(__file__), "leads.csv")
 CSV_HEADERS = [
@@ -23,7 +23,7 @@ CSV_HEADERS = [
     "personalized_dm", "heyreach_status", "notes",
 ]
 
-openai_client = OpenAI(api_key=OPENAI_API_KEY)
+claude = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
 
 ICP_TITLES = [
     "Founder", "CEO", "CTO", "COO",
@@ -133,15 +133,30 @@ def enrich_emails(leads):
     return enriched
 
 
-# ── STEP 3: OpenAI Personalization ───────────────────────────────────────────
+# ── STEP 3: Claude DM Personalization (humaniser) ────────────────────────────
+
+HUMANISER_SYSTEM = """\
+You write LinkedIn DMs that sound like a real person wrote them — not a bot, not a template.
+
+Rules (humaniser):
+- No em dashes. Use a comma, period, or rewrite the sentence.
+- No filler openers: "I hope this finds you well", "I came across your profile", "I wanted to reach out".
+- No vague significance words: "innovative", "leveraging", "game-changing", "exciting opportunity".
+- No passive voice. Own the sentence.
+- No rule-of-three lists. One clear point beats three watered-down ones.
+- Vary sentence length. Short punches. Then a longer one that earns it.
+- Have an opinion. Don't hedge everything.
+- 60-80 words max. Tight is respectful of their time.
+- End with a single low-pressure question, not a call to action speech.
+"""
 
 FALLBACK_DM = (
-    "Hey {first_name}, saw what you're building at {company} — really interesting space. "
-    "We help teams like yours cut manual ops with AI automation. Worth a quick chat?"
+    "Hey {first_name}, noticed {company} is deep in the AI automation space. "
+    "We cut manual ops for teams like yours. Worth a quick chat?"
 )
 
 def personalize_dms(leads):
-    print("✍️  STEP 3 — Generating personalized DMs via OpenAI...")
+    print("✍️  STEP 3 — Generating personalized DMs via Claude (humaniser)...")
 
     for lead in leads:
         first_name = lead.get("first_name", "there")
@@ -149,39 +164,27 @@ def personalize_dms(leads):
         company = (lead.get("organization") or {}).get("name", "your company")
         linkedin_url = lead.get("linkedin_url", "")
 
+        user_prompt = (
+            f"Write a LinkedIn DM for:\n"
+            f"- Name: {first_name}\n"
+            f"- Title: {title}\n"
+            f"- Company: {company}\n"
+            f"- LinkedIn: {linkedin_url}\n\n"
+            "Open with something specific and true about their role or company. "
+            "Show you get their actual pain (manual work = slow = expensive). "
+            "End with one soft question."
+        )
+
         try:
-            response = openai_client.chat.completions.create(
-                model="gpt-4o",
-                messages=[
-                    {
-                        "role": "system",
-                        "content": (
-                            "You are a senior B2B copywriter. You write LinkedIn DMs that sound "
-                            "like a smart peer — warm, specific, no templates. 60-120 words max."
-                        ),
-                    },
-                    {
-                        "role": "user",
-                        "content": (
-                            f"Write a LinkedIn DM for:\n"
-                            f"- Name: {first_name}\n"
-                            f"- Title: {title}\n"
-                            f"- Company: {company}\n"
-                            f"- LinkedIn: {linkedin_url}\n\n"
-                            "Requirements:\n"
-                            "- Open with something SPECIFIC about them or their company\n"
-                            "- Reference their role or industry naturally\n"
-                            "- Show you understand their pain point (manual = slow = expensive)\n"
-                            "- End with soft CTA: 'worth a quick chat?' or 'mind if I share?'\n"
-                            "- Sound like a peer, not a salesperson"
-                        ),
-                    },
-                ],
+            response = claude.messages.create(
+                model="claude-sonnet-4-6",
                 max_tokens=200,
+                system=HUMANISER_SYSTEM,
+                messages=[{"role": "user", "content": user_prompt}],
             )
-            lead["personalized_dm"] = response.choices[0].message.content.strip()
+            lead["personalized_dm"] = response.content[0].text.strip()
         except Exception as e:
-            print(f"  ⚠ OpenAI error for {first_name}: {e} — using fallback")
+            print(f"  ⚠ Claude error for {first_name}: {e} — using fallback")
             lead["personalized_dm"] = FALLBACK_DM.format(
                 first_name=first_name, company=company
             )

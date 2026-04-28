@@ -1,5 +1,5 @@
 requests
-openai
+anthropic
 python-dotenv
 gspread
 oauth2client
