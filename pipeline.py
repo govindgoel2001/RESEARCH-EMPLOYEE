@@ -1,5 +1,7 @@
+import csv
 import os
 import json
+import subprocess
 import time
 import requests
 from datetime import date
@@ -13,7 +15,13 @@ PROSPEO_API_KEY = os.getenv("PROSPEO_API_KEY")
 HEYREACH_API_KEY = os.getenv("HEYREACH_API_KEY")
 HEYREACH_CAMPAIGN_ID = os.getenv("HEYREACH_CAMPAIGN_ID")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-CRM_SHEET_URL = os.getenv("CRM_SHEET_URL")
+
+CSV_PATH = os.path.join(os.path.dirname(__file__), "leads.csv")
+CSV_HEADERS = [
+    "date", "full_name", "first_name", "last_name", "title",
+    "company", "domain", "linkedin_url", "email",
+    "personalized_dm", "heyreach_status", "notes",
+]
 
 openai_client = OpenAI(api_key=OPENAI_API_KEY)
 
@@ -219,47 +227,78 @@ def add_to_heyreach(leads):
     return added
 
 
-# ── STEP 5: Google Sheets CRM ─────────────────────────────────────────────────
+# ── STEP 5: CSV → GitHub ──────────────────────────────────────────────────────
 
-def log_to_crm(leads, heyreach_added):
-    print("📋 STEP 5 — Logging to Google Sheets CRM...")
+def update_csv_github(leads, heyreach_added):
+    print("📋 STEP 5 — Updating leads.csv and pushing to GitHub...")
     today = str(date.today())
-    rows = []
 
+    # Load existing rows to avoid duplicate linkedin_urls
+    existing_urls = set()
+    if os.path.exists(CSV_PATH):
+        with open(CSV_PATH, newline="", encoding="utf-8") as f:
+            for row in csv.DictReader(f):
+                existing_urls.add(row.get("linkedin_url", ""))
+
+    new_rows = []
     for lead in leads:
         org = lead.get("organization") or {}
-        rows.append([
-            today,
-            f"{lead.get('first_name', '')} {lead.get('last_name', '')}".strip(),
-            lead.get("first_name", ""),
-            lead.get("last_name", ""),
-            lead.get("title", ""),
-            org.get("name", ""),
-            org.get("primary_domain", ""),
-            lead.get("linkedin_url", ""),
-            lead.get("email", ""),
-            lead.get("personalized_dm", ""),
-            "added" if heyreach_added else "failed",
-            "",
-        ])
+        linkedin_url = lead.get("linkedin_url", "")
+        if linkedin_url in existing_urls:
+            continue
+        new_rows.append({
+            "date": today,
+            "full_name": f"{lead.get('first_name', '')} {lead.get('last_name', '')}".strip(),
+            "first_name": lead.get("first_name", ""),
+            "last_name": lead.get("last_name", ""),
+            "title": lead.get("title", ""),
+            "company": org.get("name", ""),
+            "domain": org.get("primary_domain", ""),
+            "linkedin_url": linkedin_url,
+            "email": lead.get("email", ""),
+            "personalized_dm": lead.get("personalized_dm", ""),
+            "heyreach_status": "added" if heyreach_added else "failed",
+            "notes": "",
+        })
 
+    write_header = not os.path.exists(CSV_PATH)
+    with open(CSV_PATH, "a", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=CSV_HEADERS)
+        if write_header:
+            writer.writeheader()
+        writer.writerows(new_rows)
+
+    print(f"  ✅ {len(new_rows)} new rows written to leads.csv")
+
+    # Commit and push
     try:
-        resp = requests.post(
-            CRM_SHEET_URL,
-            json={"rows": rows},
-            timeout=20,
+        repo_root = os.path.dirname(os.path.abspath(__file__))
+        subprocess.run(["git", "add", "leads.csv"], cwd=repo_root, check=True)
+        result = subprocess.run(
+            ["git", "diff", "--cached", "--quiet"],
+            cwd=repo_root,
         )
-        resp.raise_for_status()
-        print(f"  ✅ Logged {len(rows)} leads to CRM")
-    except Exception as e:
-        print(f"  ⚠ CRM logging error: {e}")
+        if result.returncode != 0:
+            subprocess.run(
+                ["git", "commit", "-m", f"pipeline: add {len(new_rows)} leads ({today})"],
+                cwd=repo_root, check=True,
+            )
+            subprocess.run(
+                ["git", "push", "-u", "origin", "main"],
+                cwd=repo_root, check=True,
+            )
+            print("  ✅ leads.csv committed and pushed to GitHub")
+        else:
+            print("  ℹ  No new leads to commit")
+    except subprocess.CalledProcessError as e:
+        print(f"  ⚠ Git error: {e}")
 
-    return len(rows)
+    return len(new_rows)
 
 
 # ── STEP 6: Summary Report ────────────────────────────────────────────────────
 
-def print_summary(raw_count, enriched, heyreach_added, crm_count):
+def print_summary(raw_count, enriched, heyreach_added, csv_count):
     today = date.today().strftime("%d-%m-%Y")
     top3 = enriched[:3]
 
@@ -270,7 +309,7 @@ def print_summary(raw_count, enriched, heyreach_added, crm_count):
 ✅ Verified Emails: {len(enriched)} leads (Prospeo)
 ✍️  Personalized: {len(enriched)} DMs (OpenAI)
 📤 HeyReach: {heyreach_added} added to campaign {HEYREACH_CAMPAIGN_ID}
-📋 CRM: {crm_count} logged to Google Sheet
+📋 CSV: {csv_count} new rows committed to GitHub (leads.csv)
 
 Top 3 leads by company:""")
 
@@ -288,5 +327,5 @@ if __name__ == "__main__":
     enriched_leads = enrich_emails(raw_leads)
     personalized_leads = personalize_dms(enriched_leads)
     heyreach_added = add_to_heyreach(personalized_leads)
-    crm_count = log_to_crm(personalized_leads, heyreach_added)
-    print_summary(len(raw_leads), personalized_leads, heyreach_added, crm_count)
+    csv_count = update_csv_github(personalized_leads, heyreach_added)
+    print_summary(len(raw_leads), personalized_leads, heyreach_added, csv_count)
