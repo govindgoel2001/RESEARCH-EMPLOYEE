@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Georgia, serif">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f9f4ed"/>
+
+  <!-- Title -->
+  <text x="400" y="32" font-size="18" font-weight="bold" text-anchor="middle" fill="#1a1a1a">FIG 2 — BARAN DISTRICT REGIONAL MAP</text>
+  <text x="400" y="52" font-size="11" font-style="italic" text-anchor="middle" fill="#666">Bilasgarh ruins, surrounding sites, and the Hadoti landscape</text>
+
+  <!-- Background forest texture (subtle) -->
+  <rect x="60" y="80" width="680" height="470" fill="#eee4d2" stroke="#aa9b7e" stroke-width="1.5"/>
+
+  <!-- Rivers -->
+  <!-- Parbati / Bilas Nadi (curves through the area) -->
+  <path d="M 100,400 Q 200,380 300,360 Q 380,340 450,330 Q 530,320 600,300 Q 670,285 740,280"
+        fill="none" stroke="#5b8db5" stroke-width="3.5" opacity="0.85"/>
+  <text x="200" y="395" font-size="9" font-style="italic" fill="#345066">Bilas Nadi (tributary)</text>
+
+  <path d="M 740,280 Q 700,200 670,140"
+        fill="none" stroke="#5b8db5" stroke-width="3" opacity="0.85"/>
+  <text x="690" y="160" font-size="9" font-style="italic" fill="#345066">Parbati R.</text>
+
+  <!-- Parvan River (south) -->
+  <path d="M 80,490 Q 200,475 350,485 Q 480,495 620,500"
+        fill="none" stroke="#5b8db5" stroke-width="3" opacity="0.85"/>
+  <text x="500" y="513" font-size="9" font-style="italic" fill="#345066">Parvan River</text>
+
+  <!-- Forest patches (dotted) -->
+  <g fill="#5d7d4b" opacity="0.4">
+    <circle cx="370" cy="335" r="6"/>
+    <circle cx="380" cy="350" r="5"/>
+    <circle cx="360" cy="345" r="4"/>
+    <circle cx="355" cy="355" r="5"/>
+    <circle cx="375" cy="325" r="4"/>
+    <circle cx="390" cy="345" r="4"/>
+    <circle cx="365" cy="365" r="4"/>
+    <circle cx="395" cy="355" r="4"/>
+    <text x="425" y="355" font-size="8" font-style="italic" fill="#3d5d2b" opacity="2">Dense forest</text>
+  </g>
+
+  <!-- NH-27 (East-West Corridor) -->
+  <path d="M 70,250 L 740,260" stroke="#c0392b" stroke-width="2.5" stroke-dasharray="6,3"/>
+  <text x="650" y="245" font-size="10" font-weight="bold" fill="#c0392b">NH-27</text>
+
+  <!-- ====== Cities/Sites ====== -->
+
+  <!-- Kota -->
+  <circle cx="120" cy="260" r="9" fill="#3a2a20" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="120" y="285" font-size="11" font-weight="bold" text-anchor="middle" fill="#1a1a1a">KOTA</text>
+  <text x="120" y="298" font-size="8" text-anchor="middle" fill="#666">(railway hub)</text>
+
+  <!-- Baran -->
+  <circle cx="290" cy="255" r="8" fill="#3a2a20" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="290" y="280" font-size="11" font-weight="bold" text-anchor="middle" fill="#1a1a1a">BARAN</text>
+  <text x="290" y="293" font-size="8" text-anchor="middle" fill="#666">(district HQ)</text>
+
+  <!-- Kishanganj -->
+  <circle cx="370" cy="295" r="6" fill="#5a3a2a" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="370" y="316" font-size="10" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Kishanganj</text>
+  <text x="370" y="328" font-size="7" text-anchor="middle" fill="#666">(tehsil HQ)</text>
+
+  <!-- Bilasgarh ruins (star marker) -->
+  <g transform="translate(420, 350)">
+    <polygon points="0,-14 4,-4 14,-4 6,3 9,13 0,7 -9,13 -6,3 -14,-4 -4,-4"
+             fill="#ffd700" stroke="#8B0000" stroke-width="2"/>
+    <circle cx="0" cy="0" r="3" fill="#8B0000"/>
+  </g>
+  <text x="420" y="380" font-size="13" font-weight="bold" text-anchor="middle" fill="#8B0000">BILASGARH RUINS</text>
+  <text x="420" y="394" font-size="9" font-style="italic" text-anchor="middle" fill="#5a2020">(Charkhambha + Kanya Dah)</text>
+
+  <!-- Kanya Dah pool marker (slightly offset) -->
+  <ellipse cx="445" cy="362" rx="8" ry="5" fill="#345066" opacity="0.7"/>
+  <text x="468" y="365" font-size="8" font-style="italic" fill="#345066">Kanya Dah</text>
+
+  <!-- Ramgarh Bhand Devra -->
+  <rect x="225" y="345" width="10" height="10" fill="#a0522d" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="230" y="375" font-size="9" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Ramgarh</text>
+  <text x="230" y="386" font-size="7" text-anchor="middle" fill="#666">Bhand Devra Temple</text>
+  <text x="230" y="395" font-size="7" font-style="italic" text-anchor="middle" fill="#666">"Mini Khajuraho"</text>
+
+  <!-- Sitabari -->
+  <rect x="335" y="438" width="10" height="10" fill="#a0522d" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="340" y="465" font-size="9" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Sitabari</text>
+
+  <!-- Shergarh -->
+  <rect x="555" y="455" width="10" height="10" fill="#a0522d" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="560" y="482" font-size="9" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Shergarh Fort</text>
+
+  <!-- Kakuni -->
+  <rect x="640" y="430" width="10" height="10" fill="#a0522d" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="645" y="455" font-size="9" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Kakuni</text>
+  <text x="645" y="466" font-size="7" text-anchor="middle" fill="#666">(8th c. temples)</text>
+
+  <!-- Shahabad Fort -->
+  <rect x="600" y="180" width="10" height="10" fill="#a0522d" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="605" y="170" font-size="9" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Shahabad Fort</text>
+
+  <!-- Kapil Dhara -->
+  <circle cx="280" cy="430" r="5" fill="#5b8db5" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="285" y="448" font-size="8" font-weight="bold" fill="#1a1a1a">Kapil Dhara</text>
+  <text x="285" y="458" font-size="7" font-style="italic" fill="#666">(waterfall)</text>
+
+  <!-- Road from Baran to Bilasgarh -->
+  <path d="M 290,255 Q 320,275 370,295 Q 395,322 420,350"
+        fill="none" stroke="#666" stroke-width="2" stroke-dasharray="3,2"/>
+  <text x="360" y="335" font-size="8" fill="#666" font-style="italic" transform="rotate(35 360 335)">~45 km (jeep track)</text>
+
+  <!-- Distance markers -->
+  <text x="200" y="247" font-size="9" font-style="italic" fill="#666">Kota → Baran: 75 km</text>
+
+  <!-- Compass -->
+  <g transform="translate(700, 130)">
+    <circle cx="0" cy="0" r="20" fill="#fff" stroke="#3a2a20" stroke-width="1.5"/>
+    <polygon points="0,-15 5,0 0,15 -5,0" fill="#8B0000"/>
+    <text x="0" y="-25" font-size="10" text-anchor="middle" fill="#3a2a20" font-weight="bold">N</text>
+  </g>
+
+  <!-- Scale bar -->
+  <g transform="translate(80, 530)">
+    <rect x="0" y="0" width="40" height="6" fill="#1a1a1a"/>
+    <rect x="40" y="0" width="40" height="6" fill="#fff" stroke="#1a1a1a" stroke-width="1"/>
+    <text x="0" y="20" font-size="8" fill="#1a1a1a">0</text>
+    <text x="35" y="20" font-size="8" fill="#1a1a1a">25</text>
+    <text x="78" y="20" font-size="8" fill="#1a1a1a">50 km</text>
+  </g>
+
+  <!-- Legend box -->
+  <g transform="translate(575, 100)">
+    <rect x="0" y="0" width="160" height="78" fill="#fff" stroke="#3a2a20" stroke-width="1" opacity="0.95"/>
+    <text x="80" y="14" font-size="9" font-weight="bold" text-anchor="middle" fill="#1a1a1a">LEGEND</text>
+
+    <circle cx="12" cy="28" r="5" fill="#3a2a20"/>
+    <text x="22" y="31" font-size="8" fill="#1a1a1a">City / town</text>
+
+    <polygon transform="translate(12, 43)" points="0,-6 2,-1 6,-1 3,2 4,6 0,3 -4,6 -3,2 -6,-1 -2,-1" fill="#ffd700" stroke="#8B0000" stroke-width="1"/>
+    <text x="22" y="46" font-size="8" fill="#1a1a1a">Bilasgarh (target site)</text>
+
+    <rect x="8" y="55" width="8" height="8" fill="#a0522d"/>
+    <text x="22" y="63" font-size="8" fill="#1a1a1a">Other historical site</text>
+
+    <line x1="8" y1="73" x2="20" y2="73" stroke="#c0392b" stroke-width="2" stroke-dasharray="4,2"/>
+    <text x="25" y="76" font-size="8" fill="#1a1a1a">National Highway</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="400" y="585" font-size="8" font-style="italic" text-anchor="middle" fill="#888">
+    Stylized regional schematic — positions approximate; for orientation only
+  </text>
+</svg>

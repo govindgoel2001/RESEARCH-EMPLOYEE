@@ -1,6 +1,8 @@
 # RESEARCH DOSSIER: BILASGARH FORT / BILASGARH RUINS
 ## Baran District, Rajasthan, India
 
+![Cover: The Charkhambha by night, Bilas Nadi flowing past](assets/fig0_cover.svg)
+
 **Document Type:** Investigative Research Dossier — Historical, Archaeological, Folkloric  
 **Prepared for:** Author Research Brief  
 **Date:** May 2026  
@@ -28,6 +30,8 @@
 <a name="section-1"></a>
 ## SECTION 1 — BASIC IDENTIFICATION
 
+![Figure 1: Location overview — India / Rajasthan / Bilasgarh](assets/fig1_location_overview.svg)
+
 | Field | Answer |
 |---|---|
 | **What is Bilasgarh?** | Ruins of an ancient city and temple complex, once a major urban settlement in southeastern Rajasthan |
@@ -53,6 +57,8 @@
 <a name="section-2"></a>
 ## SECTION 2 — HISTORICAL BACKGROUND
 
+![Figure 4: Historical timeline of Bilasgarh](assets/fig4_timeline.svg)
+
 ### 2.1 Timeline of Key Events
 
 | Period | Event | Status |
@@ -70,6 +76,8 @@
 ---
 
 ### 2.2 Dynasty Chart
+
+![Figure 5: Dynasties that ruled Bilasgarh](assets/fig5_dynasty_chart.svg)
 
 | Period | Ruling Power | Capital/Context |
 |---|---|---|
@@ -152,6 +160,8 @@
 <a name="section-3"></a>
 ## SECTION 3 — FOLKLORE & HAUNTED STORIES
 
+![Figure 7: Site context — the ruins, the forest, and the Kanya Dah pool](assets/fig7_site_context.svg)
+
 ### 3.1 The Central Legend: The Khechi Princess & Aurangzeb
 
 **The Story (as told in regional oral tradition and tourism sources):**
@@ -231,6 +241,8 @@
 
 <a name="section-4"></a>
 ## SECTION 4 — ARCHAEOLOGY
+
+![Figure 6: Schematic of the Charkhambha — top-down plan and pillar elevation](assets/fig6_charkhambha_layout.svg)
 
 ### 4.1 The Charkhambha — Primary Surviving Structure
 
@@ -343,6 +355,10 @@
 
 <a name="section-5"></a>
 ## SECTION 5 — CONNECTIVITY: HOW TO REACH
+
+![Figure 2: Baran district regional map](assets/fig2_baran_district_map.svg)
+
+![Figure 3: Route schematic — Delhi → Jaipur → Kota → Baran → Bilasgarh](assets/fig3_route_diagram.svg)
 
 ### 5.1 Current Connectivity
 
@@ -502,6 +518,8 @@
 
 <a name="section-8"></a>
 ## SECTION 8 — REALITY VS MYTH TABLE
+
+![Figure 8: Evidence pyramid — credibility tiers for every claim in this dossier](assets/fig8_credibility_tiers.svg)
 
 | Claim | Evidence | Source | Likely True? |
 |---|---|---|---|

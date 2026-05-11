@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="Georgia, serif">
+  <!-- Night sky gradient background -->
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0e0e"/>
+      <stop offset="40%" stop-color="#3a1e1e"/>
+      <stop offset="75%" stop-color="#5a2a2a"/>
+      <stop offset="100%" stop-color="#3a1a1a"/>
+    </linearGradient>
+    <radialGradient id="moonGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe6b8"/>
+      <stop offset="70%" stop-color="#f5d090"/>
+      <stop offset="100%" stop-color="#e0b070"/>
+    </radialGradient>
+    <linearGradient id="waterGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a4a5e"/>
+      <stop offset="100%" stop-color="#1e2838"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#skyGrad)"/>
+
+  <!-- Moon -->
+  <circle cx="630" cy="120" r="48" fill="url(#moonGrad)" opacity="0.95"/>
+  <circle cx="630" cy="120" r="48" fill="none" stroke="#ffe6b8" stroke-width="0.5" opacity="0.6"/>
+
+  <!-- Moon halo -->
+  <circle cx="630" cy="120" r="65" fill="none" stroke="#ffe6b8" stroke-width="1" opacity="0.15"/>
+  <circle cx="630" cy="120" r="85" fill="none" stroke="#ffe6b8" stroke-width="0.6" opacity="0.08"/>
+
+  <!-- Stars (subtle) -->
+  <g fill="#ffe6b8" opacity="0.7">
+    <circle cx="80" cy="50" r="0.8"/>
+    <circle cx="150" cy="80" r="1"/>
+    <circle cx="220" cy="40" r="0.6"/>
+    <circle cx="290" cy="70" r="0.9"/>
+    <circle cx="380" cy="50" r="0.6"/>
+    <circle cx="450" cy="90" r="0.8"/>
+    <circle cx="520" cy="50" r="0.6"/>
+    <circle cx="700" cy="60" r="0.8"/>
+    <circle cx="750" cy="100" r="0.6"/>
+    <circle cx="120" cy="130" r="0.5"/>
+    <circle cx="350" cy="150" r="0.7"/>
+    <circle cx="480" cy="180" r="0.5"/>
+  </g>
+
+  <!-- Distant forest silhouette layer 1 -->
+  <path d="M 0,340 L 30,320 L 70,330 L 110,310 L 150,325 L 200,305 L 250,320 L 310,300 L 360,318 L 410,302 L 460,320 L 510,308 L 560,320 L 610,305 L 670,322 L 730,308 L 800,318 L 800,500 L 0,500 Z"
+        fill="#1a0a0a" opacity="0.6"/>
+
+  <!-- River (Bilas Nadi) -->
+  <path d="M 0,420 Q 200,400 380,420 Q 500,432 620,420 Q 720,410 800,418 L 800,500 L 0,500 Z"
+        fill="url(#waterGrad)"/>
+
+  <!-- River shimmer (moon reflection) -->
+  <g opacity="0.4" fill="#ffe6b8">
+    <ellipse cx="630" cy="425" rx="40" ry="2"/>
+    <ellipse cx="630" cy="432" rx="30" ry="1.5"/>
+    <ellipse cx="630" cy="440" rx="22" ry="1"/>
+    <ellipse cx="630" cy="448" rx="14" ry="0.8"/>
+  </g>
+
+  <!-- Subtle ripples -->
+  <g opacity="0.25" fill="none" stroke="#a0b5cc" stroke-width="0.6">
+    <path d="M 150,440 Q 170,438 190,440"/>
+    <path d="M 250,448 Q 270,446 290,448"/>
+    <path d="M 350,455 Q 380,453 410,455"/>
+    <path d="M 470,448 Q 490,446 510,448"/>
+  </g>
+
+  <!-- The Charkhambha — four pillars in silhouette, on a slight rise -->
+  <g transform="translate(130, 250)">
+    <!-- Ground / platform -->
+    <ellipse cx="100" cy="125" rx="135" ry="14" fill="#1a0a0a" opacity="0.75"/>
+
+    <!-- Four pillars (slight perspective) -->
+    <g fill="#0a0606" stroke="#3a2a2a" stroke-width="0.8">
+      <!-- Front-left -->
+      <rect x="35" y="35" width="14" height="90" rx="1"/>
+      <rect x="32" y="32" width="20" height="6"/>
+      <rect x="32" y="123" width="20" height="6"/>
+
+      <!-- Front-right -->
+      <rect x="151" y="35" width="14" height="90" rx="1"/>
+      <rect x="148" y="32" width="20" height="6"/>
+      <rect x="148" y="123" width="20" height="6"/>
+
+      <!-- Back-left (slightly smaller, slightly higher) -->
+      <rect x="60" y="20" width="12" height="85" rx="1" opacity="0.85"/>
+      <rect x="58" y="17" width="16" height="5" opacity="0.85"/>
+      <rect x="58" y="103" width="16" height="5" opacity="0.85"/>
+
+      <!-- Back-right -->
+      <rect x="128" y="20" width="12" height="85" rx="1" opacity="0.85"/>
+      <rect x="126" y="17" width="16" height="5" opacity="0.85"/>
+      <rect x="126" y="103" width="16" height="5" opacity="0.85"/>
+    </g>
+
+    <!-- Subtle moon-edge highlights on right side of pillars -->
+    <g fill="#5a3a3a" opacity="0.5">
+      <rect x="47" y="35" width="2" height="90"/>
+      <rect x="163" y="35" width="2" height="90"/>
+      <rect x="70" y="20" width="2" height="85"/>
+      <rect x="138" y="20" width="2" height="85"/>
+    </g>
+  </g>
+
+  <!-- Lotus on water (subtle) -->
+  <g transform="translate(450, 445)" opacity="0.9">
+    <ellipse cx="0" cy="0" rx="9" ry="3" fill="#d8c8a0"/>
+    <ellipse cx="-5" cy="-1" rx="3" ry="4" fill="#d8c8a0"/>
+    <ellipse cx="5" cy="-1" rx="3" ry="4" fill="#d8c8a0"/>
+    <ellipse cx="0" cy="-3" rx="3" ry="4.5" fill="#d8c8a0"/>
+    <circle cx="0" cy="-1.5" r="1.5" fill="#b8860b"/>
+  </g>
+  <g transform="translate(380, 455)" opacity="0.7">
+    <ellipse cx="0" cy="0" rx="6" ry="2" fill="#d8c8a0"/>
+    <ellipse cx="-3" cy="-0.5" rx="2" ry="2.5" fill="#d8c8a0"/>
+    <ellipse cx="3" cy="-0.5" rx="2" ry="2.5" fill="#d8c8a0"/>
+  </g>
+
+  <!-- Birds in distance -->
+  <g stroke="#1a0a0a" stroke-width="1" fill="none" opacity="0.7">
+    <path d="M 450,90 q 4,-4 8,0 q 4,-4 8,0"/>
+    <path d="M 490,110 q 3,-3 6,0 q 3,-3 6,0"/>
+    <path d="M 520,80 q 3,-3 6,0 q 3,-3 6,0"/>
+  </g>
+
+  <!-- Mist over water -->
+  <g opacity="0.18" fill="#d8d2bc">
+    <ellipse cx="200" cy="415" rx="100" ry="6"/>
+    <ellipse cx="500" cy="420" rx="120" ry="6"/>
+    <ellipse cx="700" cy="425" rx="80" ry="5"/>
+  </g>
+
+  <!-- Title overlay -->
+  <g>
+    <text x="400" y="55" font-size="11" letter-spacing="3" text-anchor="middle" fill="#d8c8a0" opacity="0.85">RESEARCH DOSSIER · MAY 2026</text>
+  </g>
+
+  <!-- Bottom title bar -->
+  <rect x="0" y="465" width="800" height="35" fill="#0a0606" opacity="0.85"/>
+  <text x="400" y="487" font-size="13" letter-spacing="6" text-anchor="middle" fill="#d8c8a0" font-weight="bold">
+    BILASGARH · BARAN · RAJASTHAN
+  </text>
+</svg>
