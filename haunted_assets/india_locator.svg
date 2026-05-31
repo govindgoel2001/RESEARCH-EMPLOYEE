@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" font-family="Georgia, serif">
+  <rect width="800" height="620" fill="#f4f0ea"/>
+
+  <text x="400" y="30" font-size="17" font-weight="bold" text-anchor="middle" fill="#1a1a1a">INDIA — TEN HAUNTED SITES: NATIONAL LOCATOR MAP</text>
+  <text x="400" y="48" font-size="10" font-style="italic" text-anchor="middle" fill="#666">Geographical distribution across India</text>
+
+  <!-- India stylised outline -->
+  <path d="M 260,75 L 310,60 L 370,58 L 420,65 L 465,75 L 505,88
+           L 535,105 L 558,128 L 570,155 L 575,185 L 572,215
+           L 558,250 L 538,285 L 515,318 L 488,348 L 460,378
+           L 432,405 L 405,428 L 380,448 L 355,462 L 335,472
+           L 318,478 L 310,485 L 305,490 L 300,495 L 298,492
+           L 290,480 L 278,460 L 265,435 L 252,405 L 242,370
+           L 235,335 L 230,295 L 228,255 L 230,215 L 235,178
+           L 242,142 L 252,110 L 265,85 Z"
+        fill="#e8dcc8" stroke="#5a4030" stroke-width="1.8"/>
+
+  <!-- State boundary hints (subtle lines for key states) -->
+  <!-- Rajasthan boundary rough -->
+  <path d="M 260,120 L 310,105 L 355,108 L 390,125 L 400,165 L 385,200 L 350,215 L 310,210 L 275,190 L 260,155 Z"
+        fill="none" stroke="#8a6a4a" stroke-width="0.7" stroke-dasharray="3,2" opacity="0.5"/>
+
+  <!-- Delhi box -->
+  <rect x="328" y="144" width="14" height="14" fill="none" stroke="#8a6a4a" stroke-width="0.7" stroke-dasharray="2,2" opacity="0.5"/>
+
+  <!-- Maharashtra rough -->
+  <path d="M 290,295 L 340,278 L 390,285 L 415,310 L 405,345 L 368,360 L 325,352 L 295,330 Z"
+        fill="none" stroke="#8a6a4a" stroke-width="0.7" stroke-dasharray="3,2" opacity="0.5"/>
+
+  <!-- West Bengal -->
+  <path d="M 485,185 L 510,180 L 528,200 L 525,235 L 505,248 L 482,235 L 478,210 Z"
+        fill="none" stroke="#8a6a4a" stroke-width="0.7" stroke-dasharray="3,2" opacity="0.5"/>
+
+  <!-- Gujarat -->
+  <path d="M 248,195 L 278,185 L 298,200 L 295,235 L 270,248 L 248,232 Z"
+        fill="none" stroke="#8a6a4a" stroke-width="0.7" stroke-dasharray="3,2" opacity="0.5"/>
+
+  <!-- Tamil Nadu -->
+  <path d="M 348,425 L 378,415 L 398,430 L 390,465 L 362,472 L 340,455 Z"
+        fill="none" stroke="#8a6a4a" stroke-width="0.7" stroke-dasharray="3,2" opacity="0.5"/>
+
+  <!-- Uttarakhand -->
+  <path d="M 345,130 L 375,122 L 395,138 L 388,158 L 362,162 L 342,148 Z"
+        fill="none" stroke="#8a6a4a" stroke-width="0.7" stroke-dasharray="3,2" opacity="0.5"/>
+
+  <!-- Site markers and labels -->
+
+  <!-- 1. Bhangarh Fort, Alwar, Rajasthan -->
+  <g transform="translate(308, 172)">
+    <circle r="7" fill="#8B0000" stroke="#1a1a1a" stroke-width="1.2"/>
+    <text x="0" y="3" font-size="9" font-weight="bold" text-anchor="middle" fill="#fff">1</text>
+  </g>
+  <line x1="308" y1="172" x2="180" y2="158" stroke="#8B0000" stroke-width="0.7"/>
+  <text x="175" y="155" font-size="9" font-weight="bold" text-anchor="end" fill="#8B0000">① Bhangarh Fort</text>
+  <text x="175" y="167" font-size="8" text-anchor="end" fill="#555">Alwar, Rajasthan</text>
+
+  <!-- 2. Kuldhara, Jaisalmer, Rajasthan -->
+  <g transform="translate(265, 195)">
+    <circle r="7" fill="#8B0000" stroke="#1a1a1a" stroke-width="1.2"/>
+    <text x="0" y="3" font-size="9" font-weight="bold" text-anchor="middle" fill="#fff">2</text>
+  </g>
+  <line x1="265" y1="195" x2="155" y2="210" stroke="#8B0000" stroke-width="0.7"/>
+  <text x="152" y="207" font-size="9" font-weight="bold" text-anchor="end" fill="#8B0000">② Kuldhara Village</text>
+  <text x="152" y="219" font-size="8" text-anchor="end" fill="#555">Jaisalmer, Rajasthan</text>
+
+  <!-- 3. Dumas Beach, Surat, Gujarat -->
+  <g transform="translate(264, 248)">
+    <circle r="7" fill="#8B0000" stroke="#1a1a1a" stroke-width="1.2"/>
+    <text x="0" y="3" font-size="9" font-weight="bold" text-anchor="middle" fill="#fff">3</text>
+  </g>
+  <line x1="264" y1="248" x2="162" y2="262" stroke="#8B0000" stroke-width="0.7"/>
+  <text x="160" y="259" font-size="9" font-weight="bold" text-anchor="end" fill="#8B0000">③ Dumas Beach</text>
+  <text x="160" y="271" font-size="8" text-anchor="end" fill="#555">Surat, Gujarat</text>
+
+  <!-- 4. Dow Hill, Kurseong, W. Bengal -->
+  <g transform="translate(505, 210)">
+    <circle r="7" fill="#8B0000" stroke="#1a1a1a" stroke-width="1.2"/>
+    <text x="0" y="3" font-size="9" font-weight="bold" text-anchor="middle" fill="#fff">4</text>
+  </g>
+  <line x1="505" y1="210" x2="610" y2="195" stroke="#8B0000" stroke-width="0.7"/>
+  <text x="614" y="192" font-size="9" font-weight="bold" fill="#8B0000">④ Dow Hill</text>
+  <text x="614" y="204" font-size="8" fill="#555">Kurseong, W. Bengal</text>
+
+  <!-- 5. Shaniwarwada, Pune, Maharashtra -->
+  <g transform="translate(340, 318)">
+    <circle r="7" fill="#8B0000" stroke="#1a1a1a" stroke-width="1.2"/>
+    <text x="0" y="3" font-size="9" font-weight="bold" text-anchor="middle" fill="#fff">5</text>
+  </g>
+  <line x1="340" y1="318" x2="220" y2="338" stroke="#8B0000" stroke-width="0.7"/>
+  <text x="218" y="335" font-size="9" font-weight="bold" text-anchor="end" fill="#8B0000">⑤ Shaniwarwada Fort</text>
+  <text x="218" y="347" font-size="8" text-anchor="end" fill="#555">Pune, Maharashtra</text>
+
+  <!-- 6. Agrasen ki Baoli, New Delhi -->
+  <g transform="translate(338, 155)">
+    <circle r="7" fill="#8B0000" stroke="#1a1a1a" stroke-width="1.2"/>
+    <text x="0" y="3" font-size="9" font-weight="bold" text-anchor="middle" fill="#fff">6</text>
+  </g>
+  <line x1="338" y1="155" x2="610" y2="138" stroke="#8B0000" stroke-width="0.7"/>
+  <text x="614" y="135" font-size="9" font-weight="bold" fill="#8B0000">⑥ Agrasen ki Baoli</text>
+  <text x="614" y="147" font-size="8" fill="#555">New Delhi</text>
+
+  <!-- 7. Jamali Kamali, Delhi -->
+  <g transform="translate(334" y="162">
+  </g>
+  <g transform="translate(335, 163)">
+    <circle r="7" fill="#8B0000" stroke="#1a1a1a" stroke-width="1.2"/>
+    <text x="0" y="3" font-size="9" font-weight="bold" text-anchor="middle" fill="#fff">7</text>
+  </g>
+  <line x1="335" y1="163" x2="610" y2="160" stroke="#8B0000" stroke-width="0.7"/>
+  <text x="614" y="157" font-size="9" font-weight="bold" fill="#8B0000">⑦ Jamali Kamali Tomb</text>
+  <text x="614" y="169" font-size="8" fill="#555">Mehrauli, Delhi</text>
+
+  <!-- 8. Brij Raj Bhavan, Kota, Rajasthan -->
+  <g transform="translate(336, 215)">
+    <circle r="7" fill="#8B0000" stroke="#1a1a1a" stroke-width="1.2"/>
+    <text x="0" y="3" font-size="9" font-weight="bold" text-anchor="middle" fill="#fff">8</text>
+  </g>
+  <line x1="336" y1="215" x2="610" y2="218" stroke="#8B0000" stroke-width="0.7"/>
+  <text x="614" y="215" font-size="9" font-weight="bold" fill="#8B0000">⑧ Brij Raj Bhavan</text>
+  <text x="614" y="227" font-size="8" fill="#555">Kota, Rajasthan</text>
+
+  <!-- 9. Savoy Hotel, Mussoorie, Uttarakhand -->
+  <g transform="translate(360, 140)">
+    <circle r="7" fill="#8B0000" stroke="#1a1a1a" stroke-width="1.2"/>
+    <text x="0" y="3" font-size="9" font-weight="bold" text-anchor="middle" fill="#fff">9</text>
+  </g>
+  <line x1="360" y1="140" x2="610" y2="110" stroke="#8B0000" stroke-width="0.7"/>
+  <text x="614" y="107" font-size="9" font-weight="bold" fill="#8B0000">⑨ Savoy Hotel</text>
+  <text x="614" y="119" font-size="8" fill="#555">Mussoorie, Uttarakhand</text>
+
+  <!-- 10. Fernhill Hotel, Ooty, Tamil Nadu -->
+  <g transform="translate(372, 438)">
+    <circle r="7" fill="#8B0000" stroke="#1a1a1a" stroke-width="1.2"/>
+    <text x="0" y="3" font-size="9" font-weight="bold" text-anchor="middle" fill="#fff">10</text>
+  </g>
+  <line x1="372" y1="438" x2="220" y2="465" stroke="#8B0000" stroke-width="0.7"/>
+  <text x="218" y="462" font-size="9" font-weight="bold" text-anchor="end" fill="#8B0000">⑩ Fernhill Hotel</text>
+  <text x="218" y="474" font-size="8" text-anchor="end" fill="#555">Ooty, Tamil Nadu</text>
+
+  <!-- Compass -->
+  <g transform="translate(72, 90)">
+    <circle cx="0" cy="0" r="22" fill="#fff" stroke="#5a4030" stroke-width="1.5"/>
+    <polygon points="0,-16 5,0 0,16 -5,0" fill="#8B0000"/>
+    <text x="0" y="-28" font-size="11" font-weight="bold" text-anchor="middle" fill="#3a2a20">N</text>
+  </g>
+
+  <!-- Scale bar -->
+  <g transform="translate(80, 550)">
+    <rect x="0" y="0" width="50" height="7" fill="#1a1a1a"/>
+    <rect x="50" y="0" width="50" height="7" fill="#fff" stroke="#1a1a1a" stroke-width="1"/>
+    <text x="0" y="20" font-size="9" fill="#1a1a1a">0</text>
+    <text x="44" y="20" font-size="9" fill="#1a1a1a">250</text>
+    <text x="96" y="20" font-size="9" fill="#1a1a1a">500 km</text>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(560, 545)">
+    <rect x="0" y="-8" width="195" height="38" fill="#fff" stroke="#5a4030" stroke-width="1"/>
+    <circle cx="12" cy="8" r="7" fill="#8B0000" stroke="#1a1a1a" stroke-width="1"/>
+    <text x="12" y="12" font-size="8" font-weight="bold" text-anchor="middle" fill="#fff">N</text>
+    <text x="25" y="12" font-size="9" fill="#1a1a1a">Haunted site (numbered)</text>
+  </g>
+
+  <text x="400" y="600" font-size="8" font-style="italic" text-anchor="middle" fill="#888">
+    Stylized geographic schematic — positions approximate; for orientation only
+  </text>
+</svg>

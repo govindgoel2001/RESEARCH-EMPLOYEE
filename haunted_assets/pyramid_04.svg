@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Georgia, serif">
+  <rect width="800" height="480" fill="#f9f4ed"/>
+
+  <text x="400" y="28" font-size="15" font-weight="bold" text-anchor="middle" fill="#1a1a1a">SITE 4 — EVIDENCE PYRAMID</text>
+  <text x="400" y="46" font-size="11" font-style="italic" text-anchor="middle" fill="#8B0000">Dow Hill, Kurseong, West Bengal</text>
+
+  <!-- Tier 1: VERIFIED (top, narrow) -->
+  <polygon points="355,75 445,75 462,110 338,110" fill="#2c5a2c" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="400" y="97" font-size="11" font-weight="bold" text-anchor="middle" fill="#fff">VERIFIED</text>
+
+  <!-- Tier 2: DOCUMENTED -->
+  <polygon points="338,114 462,114 482,152 318,152" fill="#5b8db5" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="400" y="137" font-size="11" font-weight="bold" text-anchor="middle" fill="#fff">DOCUMENTED</text>
+
+  <!-- Tier 3: THEORY/INFERRED -->
+  <polygon points="318,156 482,156 505,197 295,197" fill="#d4a574" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="400" y="181" font-size="11" font-weight="bold" text-anchor="middle" fill="#1a1a1a">INFERRED / THEORY</text>
+
+  <!-- Tier 4: FOLKLORE -->
+  <polygon points="295,201 505,201 532,245 268,245" fill="#c97a5a" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="400" y="227" font-size="11" font-weight="bold" text-anchor="middle" fill="#fff">FOLKLORE</text>
+
+  <!-- Tier 5: SPECULATION (base) -->
+  <polygon points="268,249 532,249 565,295 235,295" fill="#888" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="400" y="276" font-size="11" font-weight="bold" text-anchor="middle" fill="#fff">SPECULATION / RUMOUR</text>
+
+  <!-- Right column: examples -->
+  <text x="578" y="93" font-size="8" font-weight="bold" fill="#2c5a2c">VERIFIED</text>
+  <text x="578" y="103" font-size="8" fill="#1a1a1a">Victoria Boys School (1879) physically exists</text>
+<text x="578" y="114" font-size="8" fill="#1a1a1a">Death Road (forest path) is real</text>
+
+  <line x1="462" y1="93" x2="575" y2="93" stroke="#2c5a2c" stroke-width="0.6"/>
+
+  <text x="578" y="133" font-size="8" font-weight="bold" fill="#5b8db5">DOCUMENTED</text>
+  <text x="578" y="143" font-size="8" fill="#1a1a1a">Several workers' deaths reported during school</text>
+<text x="578" y="154" font-size="8" fill="#1a1a1a">holidays</text>
+<text x="578" y="165" font-size="8" fill="#1a1a1a">Locals documented fear of the forest stretch</text>
+
+  <line x1="482" y1="133" x2="575" y2="133" stroke="#5b8db5" stroke-width="0.6"/>
+
+  <text x="578" y="180" font-size="8" font-weight="bold" fill="#8a6532">INFERRED</text>
+  <text x="578" y="190" font-size="8" fill="#1a1a1a">Headless boy ghost is a reinterpretation of</text>
+<text x="578" y="201" font-size="8" fill="#1a1a1a">logging/worker accidents</text>
+
+  <line x1="505" y1="180" x2="575" y2="180" stroke="#8a6532" stroke-width="0.6"/>
+
+  <text x="578" y="222" font-size="8" font-weight="bold" fill="#8b3a1a">FOLKLORE</text>
+  <text x="578" y="232" font-size="8" fill="#1a1a1a">Headless boy seen walking in the forest</text>
+<text x="578" y="243" font-size="8" fill="#1a1a1a">Red eyes seen in the dark</text>
+<text x="578" y="254" font-size="8" fill="#1a1a1a">Footsteps in the school corridors during holidays</text>
+
+  <line x1="532" y1="222" x2="575" y2="222" stroke="#8b3a1a" stroke-width="0.6"/>
+
+  <text x="578" y="268" font-size="8" font-weight="bold" fill="#555">SPECULATION</text>
+  <text x="578" y="278" font-size="8" fill="#1a1a1a">Mass hauntings every December</text>
+<text x="578" y="289" font-size="8" fill="#1a1a1a">The forest drives people to suicide</text>
+
+  <line x1="565" y1="268" x2="575" y2="268" stroke="#555" stroke-width="0.6"/>
+
+  <!-- Left column: criteria -->
+  <line x1="338" y1="93" x2="222" y2="93" stroke="#2c5a2c" stroke-width="0.6"/>
+  <text x="220" y="96" font-size="8" text-anchor="end" fill="#2c5a2c">→ multi-source, physical evidence</text>
+
+  <line x1="318" y1="133" x2="222" y2="133" stroke="#5b8db5" stroke-width="0.6"/>
+  <text x="220" y="136" font-size="8" text-anchor="end" fill="#5b8db5">→ newspaper/official records</text>
+
+  <line x1="295" y1="180" x2="222" y2="180" stroke="#8a6532" stroke-width="0.6"/>
+  <text x="220" y="183" font-size="8" text-anchor="end" fill="#8a6532">→ logical inference</text>
+
+  <line x1="268" y1="222" x2="222" y2="222" stroke="#8b3a1a" stroke-width="0.6"/>
+  <text x="220" y="225" font-size="8" text-anchor="end" fill="#8b3a1a">→ oral tradition only</text>
+
+  <line x1="235" y1="268" x2="222" y2="268" stroke="#555" stroke-width="0.6"/>
+  <text x="220" y="271" font-size="8" text-anchor="end" fill="#555">→ no verifiable source</text>
+
+  <text x="400" y="470" font-size="8" font-style="italic" text-anchor="middle" fill="#888">
+    All claims in Site 4's section are tagged with one of these tiers
+  </text>
+</svg>

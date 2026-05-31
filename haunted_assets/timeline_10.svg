@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 380" font-family="Georgia, serif">
+  <rect width="700" height="380" fill="#f9f4ed"/>
+
+  <text x="350" y="28" font-size="15" font-weight="bold" text-anchor="middle" fill="#1a1a1a">SITE 10 — HISTORICAL TIMELINE</text>
+  <text x="350" y="46" font-size="11" font-weight="bold" text-anchor="middle" fill="#5a3a6a">Fernhill Hotel, Ooty</text>
+
+  <!-- Timeline backbone -->
+  <line x1="60" y1="220" x2="640" y2="220" stroke="#3a2a20" stroke-width="2.5"/>
+  <polygon points="640,220 630,215 630,225" fill="#3a2a20"/>
+
+  
+    <!-- Event 1 above -->
+    <circle cx="80" cy="220" r="6" fill="#5a3a6a" stroke="#1a1a1a" stroke-width="1.2"/>
+    <line x1="80" y1="212" x2="80" y2="190" stroke="#5a3a6a" stroke-width="1.2"/>
+    <text x="80" y="152" font-size="10" font-weight="bold" text-anchor="middle" fill="#5a3a6a">~1844</text>
+    <text x="80" y="148" font-size="9" text-anchor="middle" fill="#1a1a1a">Built as Mysore</text>
+<text x="80" y="161" font-size="9" text-anchor="middle" fill="#1a1a1a">royal summer palace</text>
+
+    <!-- Event 2 below -->
+    <circle cx="178" cy="220" r="6" fill="#5a3a6a" stroke="#1a1a1a" stroke-width="1.2"/>
+    <line x1="178" y1="228" x2="178" y2="248" stroke="#5a3a6a" stroke-width="1.2"/>
+    <text x="178" y="242" font-size="10" font-weight="bold" text-anchor="middle" fill="#5a3a6a">1947</text>
+    <text x="178" y="255" font-size="9" text-anchor="middle" fill="#1a1a1a">Post-Independence;</text>
+<text x="178" y="268" font-size="9" text-anchor="middle" fill="#1a1a1a">passed to new owners</text>
+
+    <!-- Event 3 above -->
+    <circle cx="280" cy="220" r="6" fill="#5a3a6a" stroke="#1a1a1a" stroke-width="1.2"/>
+    <line x1="280" y1="212" x2="280" y2="190" stroke="#5a3a6a" stroke-width="1.2"/>
+    <text x="280" y="152" font-size="10" font-weight="bold" text-anchor="middle" fill="#5a3a6a">1976</text>
+    <text x="280" y="148" font-size="9" text-anchor="middle" fill="#1a1a1a">Converted to</text>
+<text x="280" y="161" font-size="9" text-anchor="middle" fill="#1a1a1a">heritage hotel</text>
+
+    <!-- Event 4 below -->
+    <circle cx="380" cy="220" r="6" fill="#5a3a6a" stroke="#1a1a1a" stroke-width="1.2"/>
+    <line x1="380" y1="228" x2="380" y2="248" stroke="#5a3a6a" stroke-width="1.2"/>
+    <text x="380" y="242" font-size="10" font-weight="bold" text-anchor="middle" fill="#5a3a6a">1992</text>
+    <text x="380" y="255" font-size="9" text-anchor="middle" fill="#1a1a1a">Featured in Mani</text>
+<text x="380" y="268" font-size="9" text-anchor="middle" fill="#1a1a1a">Ratnam's Roja</text>
+
+    <!-- Event 5 above -->
+    <circle cx="480" cy="220" r="6" fill="#5a3a6a" stroke="#1a1a1a" stroke-width="1.2"/>
+    <line x1="480" y1="212" x2="480" y2="190" stroke="#5a3a6a" stroke-width="1.2"/>
+    <text x="480" y="152" font-size="10" font-weight="bold" text-anchor="middle" fill="#5a3a6a">2000s</text>
+    <text x="480" y="148" font-size="9" text-anchor="middle" fill="#1a1a1a">Haunted stories</text>
+<text x="480" y="161" font-size="9" text-anchor="middle" fill="#1a1a1a">go viral online</text>
+
+    <!-- Event 6 below -->
+    <circle cx="580" cy="220" r="6" fill="#5a3a6a" stroke="#1a1a1a" stroke-width="1.2"/>
+    <line x1="580" y1="228" x2="580" y2="248" stroke="#5a3a6a" stroke-width="1.2"/>
+    <text x="580" y="242" font-size="10" font-weight="bold" text-anchor="middle" fill="#5a3a6a">2010s+</text>
+    <text x="580" y="255" font-size="9" text-anchor="middle" fill="#1a1a1a">Hotel operational</text>
+<text x="580" y="268" font-size="9" text-anchor="middle" fill="#1a1a1a">but visitor numbers fall</text>
+
+
+  <text x="350" y="370" font-size="8" font-style="italic" text-anchor="middle" fill="#888">
+    Timeline is approximate; some dates inferred from regional history
+  </text>
+</svg>

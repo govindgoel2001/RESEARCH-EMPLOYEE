@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 500" font-family="Georgia, serif">
+  <rect width="760" height="500" fill="#f4f0ea"/>
+
+  <!-- Title -->
+  <text x="380" y="28" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a1a1a">SITE 09 — LOCAL CONTEXT MAP</text>
+  <text x="380" y="46" font-size="11" font-weight="bold" text-anchor="middle" fill="#3a5a6a">Savoy Hotel</text>
+  <text x="380" y="62" font-size="9" font-style="italic" text-anchor="middle" fill="#555">Mussoorie, Uttarakhand · 30.45°N 78.07°E</text>
+
+  <!-- Map area -->
+  <rect x="40" y="80" width="420" height="330" fill="#e8e0d0" stroke="#5a4030" stroke-width="1.5"/>
+
+  <!-- Terrain filler (subtle) -->
+  <rect x="40" y="80" width="420" height="330" fill="#ddd5bc" opacity="0.4"/>
+
+  <!-- Site marker (star) -->
+  <g transform="translate(250, 245)">
+    <polygon points="0,-18 5,-6 18,-6 8,3 12,16 0,8 -12,16 -8,3 -18,-6 -5,-6"
+             fill="#3a5a6a" stroke="#1a1a1a" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="3" fill="#1a1a1a"/>
+  </g>
+  <text x="250" y="278" font-size="12" font-weight="bold" text-anchor="middle" fill="#3a5a6a">SAVOY HOTEL</text>
+  <text x="250" y="292" font-size="9" font-style="italic" text-anchor="middle" fill="#5a3030">Colonial-era hill station hotel on the Mussoorie ridge;...</text>
+
+  <!-- Hub city 1 (left of site) -->
+  <circle cx="100" cy="200" r="8" fill="#3a2a20" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="100" y="220" font-size="10" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Dehradun</text>
+  <!-- Road from hub to site -->
+  <path d="M 108,200 L 232,242" fill="none" stroke="#888" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="162" y="228" font-size="8" fill="#555" transform="rotate(15 162 228)">35 km</text>
+
+  <!-- Hub city 2 (right of site) -->
+  <circle cx="390" cy="160" r="7" fill="#3a2a20" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="390" y="178" font-size="10" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Haridwar</text>
+  <!-- Road from hub2 to site -->
+  <path d="M 383,163 L 268,242" fill="none" stroke="#888" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="330" y="205" font-size="8" fill="#555" transform="rotate(-20 330 205)">89 km</text>
+
+  <!-- Railway symbol -->
+  <g transform="translate(130, 310)">
+    <rect x="-15" y="-6" width="30" height="12" fill="none" stroke="#3a2a20" stroke-width="1"/>
+    <line x1="-15" y1="0" x2="15" y2="0" stroke="#3a2a20" stroke-width="0.8"/>
+    <circle cx="-10" cy="0" r="3" fill="#3a2a20"/>
+    <circle cx="10" cy="0" r="3" fill="#3a2a20"/>
+  </g>
+  <text x="152" y="314" font-size="8" fill="#1a1a1a">Dehradun Railway Station (35 km)</text>
+
+  <!-- Compass -->
+  <g transform="translate(430, 110)">
+    <circle cx="0" cy="0" r="18" fill="#fff" stroke="#5a4030" stroke-width="1.2"/>
+    <polygon points="0,-12 4,0 0,12 -4,0" fill="#3a5a6a"/>
+    <text x="0" y="-22" font-size="10" font-weight="bold" text-anchor="middle" fill="#3a2a20">N</text>
+  </g>
+
+  <!-- Right panel: info boxes -->
+  <rect x="478" y="80" width="242" height="330" fill="#fff" stroke="#5a4030" stroke-width="1.2"/>
+
+  <rect x="478" y="80" width="242" height="28" fill="#3a5a6a"/>
+  <text x="599" y="99" font-size="10" font-weight="bold" text-anchor="middle" fill="#fff">QUICK FACTS</text>
+
+  <text x="490" y="126" font-size="9" font-weight="bold" fill="#8B0000">REGION</text>
+  <text x="490" y="140" font-size="9" fill="#1a1a1a">Mussoorie, Uttarakhand</text>
+  <line x1="490" y1="148" x2="710" y2="148" stroke="#ddd" stroke-width="0.8"/>
+
+  <text x="490" y="163" font-size="9" font-weight="bold" fill="#8B0000">COORDINATES</text>
+  <text x="490" y="177" font-size="9" fill="#1a1a1a">30.45°N 78.07°E</text>
+  <line x1="490" y1="185" x2="710" y2="185" stroke="#ddd" stroke-width="0.8"/>
+
+  <text x="490" y="200" font-size="9" font-weight="bold" fill="#8B0000">NEAREST HUB</text>
+  <text x="490" y="214" font-size="9" fill="#1a1a1a">Dehradun · 35 km</text>
+  <line x1="490" y1="222" x2="710" y2="222" stroke="#ddd" stroke-width="0.8"/>
+
+  <text x="490" y="237" font-size="9" font-weight="bold" fill="#8B0000">RAIL</text>
+  <text x="490" y="251" font-size="9" fill="#1a1a1a">Dehradun Railway Station (35 km)</text>
+  <line x1="490" y1="259" x2="710" y2="259" stroke="#ddd" stroke-width="0.8"/>
+
+  <text x="490" y="274" font-size="9" font-weight="bold" fill="#8B0000">RIVER NEARBY</text>
+  <text x="490" y="288" font-size="9" fill="#1a1a1a">—</text>
+  <line x1="490" y1="296" x2="710" y2="296" stroke="#ddd" stroke-width="0.8"/>
+
+  <text x="490" y="311" font-size="9" font-weight="bold" fill="#8B0000">NEARBY ATTRACTIONS</text>
+  <text x="22" y="415" font-size="9" fill="#1a1a1a">• Gun Hill (2 km)</text>
+<text x="22" y="429" font-size="9" fill="#1a1a1a">• Kempty Falls (14 km)</text>
+<text x="22" y="443" font-size="9" fill="#1a1a1a">• Landour (4 km)</text>
+
+
+  <text x="380" y="490" font-size="8" font-style="italic" text-anchor="middle" fill="#888">
+    Stylized map — positions approximate; for orientation only
+  </text>
+</svg>
