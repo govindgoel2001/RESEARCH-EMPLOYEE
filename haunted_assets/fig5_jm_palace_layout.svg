@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" font-family="Georgia, serif">
+  <rect width="800" height="520" fill="#f9f4ed"/>
+
+  <text x="400" y="28" font-size="16" font-weight="bold" text-anchor="middle" fill="#1a1a1a">FIG 5 — PALACE ARCHITECTURE &amp; THE SUBMERGED FLOORS</text>
+  <text x="400" y="46" font-size="10" font-style="italic" text-anchor="middle" fill="#666">Plan view (top) · Cross-section showing 5 floors (bottom) · 4 floors submerged</text>
+
+  <!-- ═══ LEFT: Top-down plan of palace ═══ -->
+  <rect x="30" y="65" width="340" height="240" fill="#e8e0d0" stroke="#5a4030" stroke-width="1.2"/>
+  <text x="200" y="82" font-size="11" font-weight="bold" text-anchor="middle" fill="#8B0000">PLAN VIEW — TOP FLOOR</text>
+
+  <!-- Outer boundary of palace (approximately rectangular with chamfered corners) -->
+  <polygon points="95,110 305,110 315,115 315,280 305,285 95,285 85,280 85,115"
+           fill="#d4c4a8" stroke="#5a3a20" stroke-width="2"/>
+
+  <!-- Central courtyard (chowk) -->
+  <rect x="155" y="150" width="90" height="100" fill="#b8a888" stroke="#5a3a20" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <text x="200" y="198" font-size="8" text-anchor="middle" fill="#5a3a20" font-style="italic">Open</text>
+  <text x="200" y="210" font-size="8" text-anchor="middle" fill="#5a3a20" font-style="italic">Courtyard</text>
+
+  <!-- Corner towers / chhatris -->
+  <circle cx="95" cy="118" r="14" fill="#c8a878" stroke="#5a3a20" stroke-width="1.5"/>
+  <text x="95" y="122" font-size="7" text-anchor="middle" fill="#3a2010">Ch1</text>
+
+  <circle cx="305" cy="118" r="14" fill="#c8a878" stroke="#5a3a20" stroke-width="1.5"/>
+  <text x="305" y="122" font-size="7" text-anchor="middle" fill="#3a2010">Ch2</text>
+
+  <circle cx="95" cy="277" r="14" fill="#c8a878" stroke="#5a3a20" stroke-width="1.5"/>
+  <text x="95" y="281" font-size="7" text-anchor="middle" fill="#3a2010">Ch3</text>
+
+  <circle cx="305" cy="277" r="14" fill="#c8a878" stroke="#5a3a20" stroke-width="1.5"/>
+  <text x="305" y="281" font-size="7" text-anchor="middle" fill="#3a2010">Ch4</text>
+
+  <!-- Access walkway (from shore — NW) -->
+  <rect x="40" y="190" width="48" height="15" fill="#b8a878" stroke="#5a3a20" stroke-width="1"/>
+  <text x="64" y="201" font-size="7" text-anchor="middle" fill="#5a3020">→ Jetty</text>
+
+  <!-- Label chhatri -->
+  <line x1="320" y1="118" x2="360" y2="100" stroke="#5a4030" stroke-width="0.8"/>
+  <text x="365" y="98" font-size="8.5" fill="#5a3020">Corner chhatri</text>
+  <text x="365" y="110" font-size="7.5" font-style="italic" fill="#5a3020">(domed kiosk)</text>
+
+  <!-- North arrow in plan -->
+  <g transform="translate(62, 112)">
+    <polygon points="0,-10 3,0 0,10 -3,0" fill="#8B0000"/>
+    <text x="0" y="-15" font-size="9" text-anchor="middle" fill="#3a2a20" font-weight="bold">N</text>
+  </g>
+
+  <!-- ═══ RIGHT: Cross-section showing 5 floors ═══ -->
+  <rect x="400" y="65" width="370" height="240" fill="#dce8f0" stroke="#2a5a7a" stroke-width="1.5"/>
+  <text x="585" y="82" font-size="11" font-weight="bold" text-anchor="middle" fill="#2a5a7a">CROSS-SECTION — FLOOR ELEVATION</text>
+
+  <!-- Water surface line -->
+  <line x1="400" y1="175" x2="770" y2="175" stroke="#5b8db5" stroke-width="2.5"/>
+  <text x="770" y="172" font-size="9" font-weight="bold" text-anchor="end" fill="#2a5a7a">WATER SURFACE</text>
+
+  <!-- Water fill below surface -->
+  <rect x="410" y="175" width="350" height="120" fill="#5b8db5" opacity="0.22"/>
+
+  <!-- Palace cross section walls -->
+  <rect x="470" y="95" width="230" height="200" fill="#c8b89a" stroke="#5a3a20" stroke-width="1.5"/>
+
+  <!-- Floor 5 (visible — above water) -->
+  <rect x="470" y="95" width="230" height="80" fill="#d8c8a8" stroke="#5a3a20" stroke-width="1"/>
+  <text x="585" y="133" font-size="11" font-weight="bold" text-anchor="middle" fill="#8B0000">FLOOR 5</text>
+  <text x="585" y="148" font-size="9" font-style="italic" text-anchor="middle" fill="#5a3020">VISIBLE — above water</text>
+  <!-- Chhatri on top -->
+  <polygon points="555,95 585,72 615,95" fill="#c8a878" stroke="#5a3a20" stroke-width="1.2"/>
+  <circle cx="585" cy="68" r="8" fill="#c8a878" stroke="#5a3a20" stroke-width="1"/>
+
+  <!-- Floor 4 — just below surface -->
+  <rect x="470" y="175" width="230" height="30" fill="#b0b8c8" stroke="#5a3a20" stroke-width="1"/>
+  <text x="585" y="193" font-size="9" font-weight="bold" text-anchor="middle" fill="#3a5a6a">FLOOR 4 — submerged</text>
+
+  <!-- Floor 3 -->
+  <rect x="470" y="205" width="230" height="30" fill="#9ab0c0" stroke="#5a3a20" stroke-width="1"/>
+  <text x="585" y="223" font-size="9" font-weight="bold" text-anchor="middle" fill="#3a5a6a">FLOOR 3 — submerged</text>
+
+  <!-- Floor 2 -->
+  <rect x="470" y="235" width="230" height="20" fill="#8aa0b0" stroke="#5a3a20" stroke-width="1"/>
+  <text x="585" y="249" font-size="8.5" font-weight="bold" text-anchor="middle" fill="#2a4a5a">FLOOR 2 — submerged</text>
+
+  <!-- Floor 1 (base) -->
+  <rect x="470" y="255" width="230" height="20" fill="#7a90a0" stroke="#5a3a20" stroke-width="1"/>
+  <text x="585" y="269" font-size="8.5" font-weight="bold" text-anchor="middle" fill="#2a4a5a">FLOOR 1 — submerged</text>
+
+  <!-- Seabed/lakebed -->
+  <rect x="460" y="275" width="250" height="20" fill="#8a7050" stroke="#5a4030" stroke-width="1.2"/>
+  <text x="585" y="289" font-size="8" text-anchor="middle" fill="#fff">lakebed / silted foundation</text>
+
+  <!-- Dimension arrows for visible vs submerged -->
+  <line x1="420" y1="95" x2="420" y2="175" stroke="#8B0000" stroke-width="1.5"/>
+  <polygon points="420,95 416,108 424,108" fill="#8B0000"/>
+  <polygon points="420,175 416,162 424,162" fill="#8B0000"/>
+  <text x="410" y="135" font-size="8.5" text-anchor="end" fill="#8B0000">~7 m</text>
+  <text x="410" y="148" font-size="8" text-anchor="end" fill="#8B0000">above</text>
+  <text x="410" y="160" font-size="8" text-anchor="end" fill="#8B0000">water</text>
+
+  <line x1="420" y1="175" x2="420" y2="275" stroke="#2a5a7a" stroke-width="1.5"/>
+  <polygon points="420,175 416,188 424,188" fill="#2a5a7a"/>
+  <polygon points="420,275 416,262 424,262" fill="#2a5a7a"/>
+  <text x="410" y="218" font-size="8.5" text-anchor="end" fill="#2a5a7a">~10 m</text>
+  <text x="410" y="230" font-size="8" text-anchor="end" fill="#2a5a7a">below</text>
+  <text x="410" y="242" font-size="8" text-anchor="end" fill="#2a5a7a">water</text>
+
+  <!-- ═══ BOTTOM: Author note box ═══ -->
+  <g transform="translate(30, 328)">
+    <rect x="0" y="0" width="740" height="80" fill="#fff" stroke="#3a2a20" stroke-width="1.2"/>
+    <text x="370" y="20" font-size="11" font-weight="bold" text-anchor="middle" fill="#8B0000">FOR THE AUTHOR — THE SUBMERGED MYSTERY</text>
+    <text x="370" y="38" font-size="9" text-anchor="middle" fill="#1a1a1a">
+      Only Floor 5 is visible from the shore. Floors 1–4 are permanently submerged. The palace has never been fully excavated or mapped.
+    </text>
+    <text x="370" y="54" font-size="9" text-anchor="middle" fill="#1a1a1a">
+      Architectural surveys confirm 5 storeys; the submerged floors contain arched corridors, rooms, and possibly ceremonial spaces.
+    </text>
+    <text x="370" y="70" font-size="9" font-style="italic" text-anchor="middle" fill="#8B0000">
+      The unknown contents of the submerged floors are the single most powerful mystery this building offers to a fiction writer.
+    </text>
+  </g>
+
+  <text x="400" y="510" font-size="8" font-style="italic" text-anchor="middle" fill="#888">
+    Proportions illustrative; exact floor heights and lakebed depth are from available survey estimates
+  </text>
+</svg>

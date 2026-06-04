@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 540" font-family="Georgia, serif">
+  <rect width="800" height="540" fill="#f4f0ea"/>
+
+  <text x="400" y="30" font-size="16" font-weight="bold" text-anchor="middle" fill="#1a1a1a">FIG 6 — SITE CONTEXT: MAN SAGAR LAKE &amp; JAL MAHAL</text>
+  <text x="400" y="50" font-size="10" font-style="italic" text-anchor="middle" fill="#666">Stylized aerial view — lake, palace island, hills, highway, bird life</text>
+
+  <!-- Map canvas -->
+  <rect x="40" y="68" width="720" height="420" fill="#c8d8b0" stroke="#5a4030" stroke-width="1.5" rx="2"/>
+
+  <!-- Aravalli Hills — northern half -->
+  <path d="M 40,68 Q 100,80 160,90 Q 240,100 320,108 Q 400,112 480,108 Q 560,102 640,108 Q 700,112 760,108 L 760,68 Z"
+        fill="#b0a888" opacity="0.7"/>
+  <!-- Hill texture lines -->
+  <g stroke="#9a9070" stroke-width="0.6" opacity="0.5">
+    <path d="M 80,68 L 70,88"/><path d="M 120,70 L 110,90"/><path d="M 200,72 L 188,92"/>
+    <path d="M 300,75 L 290,95"/><path d="M 400,74 L 390,94"/><path d="M 500,73 L 490,93"/>
+    <path d="M 600,76 L 588,96"/><path d="M 700,72 L 690,92"/>
+  </g>
+  <text x="400" y="95" font-size="11" font-style="italic" fill="#6a5a40" font-weight="bold">Aravalli Hills Ridge</text>
+
+  <!-- Nahargarh Fort on hill -->
+  <g transform="translate(170, 95)">
+    <rect x="-22" y="-12" width="44" height="22" fill="#c8a060" stroke="#8a6030" stroke-width="1.5"/>
+    <polygon points="0,-18 4,-12 -4,-12" fill="#c8a060" stroke="#8a6030" stroke-width="1"/>
+    <text x="0" y="2" font-size="8" font-weight="bold" text-anchor="middle" fill="#3a2010">NAHARGARH</text>
+    <text x="0" y="22" font-size="7" text-anchor="middle" fill="#3a2010">Fort</text>
+  </g>
+
+  <!-- Amber Fort on hill (NE) -->
+  <g transform="translate(640, 100)">
+    <rect x="-22" y="-12" width="44" height="22" fill="#c8a060" stroke="#8a6030" stroke-width="1.5"/>
+    <polygon points="0,-18 4,-12 -4,-12" fill="#c8a060" stroke="#8a6030" stroke-width="1"/>
+    <text x="0" y="2" font-size="8" font-weight="bold" text-anchor="middle" fill="#3a2010">AMBER</text>
+    <text x="0" y="22" font-size="7" text-anchor="middle" fill="#3a2010">Fort</text>
+  </g>
+
+  <!-- Man Sagar Lake — irregular oval -->
+  <ellipse cx="400" cy="280" rx="210" ry="110" fill="#5b8db5" opacity="0.85"/>
+  <ellipse cx="400" cy="280" rx="210" ry="110" fill="none" stroke="#2a5a7a" stroke-width="2"/>
+
+  <!-- Lake shimmer highlights -->
+  <g opacity="0.3" fill="none" stroke="#a8d0e8" stroke-width="0.8">
+    <path d="M 220,250 Q 260,245 300,250"/>
+    <path d="M 320,235 Q 370,230 420,235"/>
+    <path d="M 440,245 Q 490,240 530,245"/>
+    <path d="M 260,275 Q 320,268 380,275"/>
+    <path d="M 420,285 Q 480,278 540,285"/>
+  </g>
+
+  <!-- Jal Mahal Island & Palace -->
+  <!-- Island base -->
+  <ellipse cx="400" cy="278" rx="48" ry="28" fill="#d8c8a8" stroke="#8a6a40" stroke-width="1.5"/>
+  <!-- Access jetty (narrow walkway from south shore) -->
+  <rect x="396" y="306" width="8" height="38" fill="#b8a880" stroke="#8a6a40" stroke-width="1"/>
+
+  <!-- Palace structure -->
+  <g transform="translate(380, 248)">
+    <!-- Main body -->
+    <rect x="0" y="4" width="40" height="28" fill="#c8b890" stroke="#5a3a20" stroke-width="1.2"/>
+    <!-- Arched windows -->
+    <g fill="#8a6840">
+      <path d="M 3,14 Q 6,10 9,14 L 9,22 L 3,22 Z"/>
+      <path d="M 11,14 Q 14,10 17,14 L 17,22 L 11,22 Z"/>
+      <path d="M 23,14 Q 26,10 29,14 L 29,22 L 23,22 Z"/>
+      <path d="M 31,14 Q 34,10 37,14 L 37,22 L 31,22 Z"/>
+    </g>
+    <!-- Crenellations -->
+    <g fill="#c8b890">
+      <rect x="0" y="0" width="5" height="6"/><rect x="7" y="0" width="5" height="6"/>
+      <rect x="14" y="0" width="5" height="6"/><rect x="21" y="0" width="5" height="6"/>
+      <rect x="28" y="0" width="5" height="6"/><rect x="35" y="0" width="5" height="6"/>
+    </g>
+    <!-- Corner chhatris -->
+    <circle cx="0" cy="4" r="5" fill="#d4b878" stroke="#5a3a20" stroke-width="0.8"/>
+    <circle cx="40" cy="4" r="5" fill="#d4b878" stroke="#5a3a20" stroke-width="0.8"/>
+    <!-- Center chhatri (taller) -->
+    <polygon points="20,-8 24,0 16,0" fill="#d4b878" stroke="#5a3a20" stroke-width="0.8"/>
+    <circle cx="20" cy="-10" r="4" fill="#d4b878" stroke="#5a3a20" stroke-width="0.8"/>
+  </g>
+
+  <!-- Jal Mahal label -->
+  <text x="400" y="340" font-size="12" font-weight="bold" text-anchor="middle" fill="#8B0000">JAL MAHAL</text>
+  <text x="400" y="353" font-size="9" font-style="italic" text-anchor="middle" fill="#5a2020">"Water Palace"</text>
+
+  <!-- Dravyavati River feeding lake from NW -->
+  <path d="M 40,185 Q 90,195 150,210 Q 200,225 245,248 Q 270,260 290,268"
+        fill="none" stroke="#5b8db5" stroke-width="6" opacity="0.7"/>
+  <path d="M 40,185 Q 90,195 150,210 Q 200,225 245,248 Q 270,260 290,268"
+        fill="none" stroke="#4a7396" stroke-width="2" opacity="0.5"/>
+  <text x="120" y="210" font-size="9" font-style="italic" fill="#2a5a7a" font-weight="bold">Dravyavati</text>
+  <text x="120" y="222" font-size="9" font-style="italic" fill="#2a5a7a">River</text>
+
+  <!-- Dam/Bund at western end -->
+  <rect x="185" y="265" width="10" height="28" fill="#5a3a20" stroke="#3a2010" stroke-width="1.2"/>
+  <text x="178" y="290" font-size="8.5" text-anchor="end" fill="#5a3a20" font-weight="bold">Man</text>
+  <text x="178" y="302" font-size="8.5" text-anchor="end" fill="#5a3a20" font-weight="bold">Sagar</text>
+  <text x="178" y="314" font-size="8.5" text-anchor="end" fill="#5a3a20" font-weight="bold">Bund</text>
+
+  <!-- NH-52 highway along south shore -->
+  <rect x="40" y="405" width="720" height="8" fill="#e8c040" stroke="#c8a020" stroke-width="1"/>
+  <text x="120" y="428" font-size="9" font-weight="bold" fill="#8a6010">NH-52 → Jaipur City (10 km south)</text>
+  <text x="660" y="428" font-size="9" fill="#8a6010">→ Amber (4 km NE)</text>
+
+  <!-- Shore road / viewing area -->
+  <rect x="40" y="395" width="720" height="10" fill="#c8b890" stroke="#8a6840" stroke-width="0.8" opacity="0.6"/>
+  <text x="500" y="393" font-size="8" font-style="italic" fill="#5a4030">shore viewing zone (no boats permitted)</text>
+
+  <!-- Migratory birds on lake (bar-headed geese) -->
+  <g stroke="#3a5a6a" stroke-width="1" fill="none" opacity="0.75">
+    <path d="M 280,245 q 4,-4 8,0 q 4,-4 8,0"/>
+    <path d="M 305,255 q 3,-3 6,0 q 3,-3 6,0"/>
+    <path d="M 500,238 q 4,-4 8,0 q 4,-4 8,0"/>
+    <path d="M 525,248 q 3,-3 6,0 q 3,-3 6,0"/>
+    <path d="M 460,265 q 3,-3 6,0 q 3,-3 6,0"/>
+    <path d="M 330,300 q 4,-4 8,0 q 4,-4 8,0"/>
+    <path d="M 490,308 q 3,-3 6,0 q 3,-3 6,0"/>
+  </g>
+  <text x="530" y="262" font-size="8" font-style="italic" fill="#3a5a6a">bar-headed geese</text>
+  <text x="530" y="273" font-size="8" font-style="italic" fill="#3a5a6a">(migratory visitors)</text>
+
+  <!-- Compass -->
+  <g transform="translate(72, 103)">
+    <circle cx="0" cy="0" r="20" fill="#fff" stroke="#5a4030" stroke-width="1.5"/>
+    <polygon points="0,-14 4,0 0,14 -4,0" fill="#8B0000"/>
+    <text x="0" y="-27" font-size="11" font-weight="bold" text-anchor="middle" fill="#3a2a20">N</text>
+  </g>
+
+  <!-- Bottom note -->
+  <g transform="translate(60, 466)">
+    <text x="340" y="14" font-size="9" font-style="italic" text-anchor="middle" fill="#555">
+      The palace can only be seen from the shore — no boat access is permitted by the Jaipur Development Authority.
+    </text>
+    <text x="340" y="28" font-size="9" font-style="italic" text-anchor="middle" fill="#555">
+      The inaccessibility is both official policy and the primary source of its mystery. You cannot get close.
+    </text>
+  </g>
+
+  <text x="400" y="525" font-size="8" font-style="italic" text-anchor="middle" fill="#888">
+    Stylized aerial schematic — relative positions approximate; not surveyed
+  </text>
+</svg>

@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" font-family="Georgia, serif">
+  <rect width="800" height="440" fill="#f4f0ea"/>
+
+  <text x="400" y="28" font-size="15" font-weight="bold" text-anchor="middle" fill="#1a1a1a">FIG 1 — LOCATION OVERVIEW</text>
+  <text x="400" y="46" font-size="10" font-style="italic" text-anchor="middle" fill="#666">India → Rajasthan → Jaipur District → Man Sagar Lake</text>
+
+  <!-- ═══ LEFT PANEL: India outline ═══ -->
+  <rect x="20" y="65" width="355" height="345" fill="#e8e0d0" stroke="#5a4030" stroke-width="1.2"/>
+  <text x="197" y="86" font-size="11" font-weight="bold" text-anchor="middle" fill="#3a2a20">INDIA</text>
+
+  <!-- India outline (simplified) -->
+  <path d="M 100,105 L 140,92 L 190,90 L 230,97 L 265,107
+           L 290,122 L 308,142 L 315,165 L 313,192
+           L 304,222 L 288,252 L 268,280 L 246,307
+           L 222,330 L 198,350 L 175,362 L 158,370
+           L 148,375 L 142,380 L 138,378 L 130,366
+           L 118,345 L 107,320 L 99,292 L 93,262
+           L 90,232 L 91,200 L 95,170 L 100,140 Z"
+        fill="#ddd4be" stroke="#8a6a4a" stroke-width="1.5"/>
+
+  <!-- Rajasthan highlighted -->
+  <path d="M 100,128 L 132,118 L 162,120 L 188,132 L 196,155
+           L 186,180 L 162,192 L 136,188 L 112,170 L 100,150 Z"
+        fill="#c8a878" stroke="#8B0000" stroke-width="1.5" opacity="0.85"/>
+  <text x="148" y="162" font-size="9" font-weight="bold" text-anchor="middle" fill="#8B0000">RAJASTHAN</text>
+
+  <!-- Jaipur star marker -->
+  <g transform="translate(160, 147)">
+    <polygon points="0,-8 2,-3 8,-3 3,1 5,7 0,3 -5,7 -3,1 -8,-3 -2,-3"
+             fill="#8B0000" stroke="#1a1a1a" stroke-width="0.8"/>
+  </g>
+  <text x="173" y="148" font-size="8" font-weight="bold" fill="#8B0000">JAIPUR</text>
+
+  <!-- Delhi dot -->
+  <circle cx="172" cy="113" r="3.5" fill="#333" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="178" y="112" font-size="7" fill="#333">Delhi</text>
+
+  <!-- Compass (left panel) -->
+  <g transform="translate(52, 105)">
+    <circle cx="0" cy="0" r="15" fill="#fff" stroke="#5a4030" stroke-width="1"/>
+    <polygon points="0,-10 3,0 0,10 -3,0" fill="#8B0000"/>
+    <text x="0" y="-18" font-size="9" font-weight="bold" text-anchor="middle" fill="#3a2a20">N</text>
+  </g>
+
+  <!-- ═══ RIGHT PANEL: Rajasthan zoom ═══ -->
+  <rect x="385" y="65" width="395" height="345" fill="#e8e0d0" stroke="#5a4030" stroke-width="1.2"/>
+  <text x="582" y="86" font-size="11" font-weight="bold" text-anchor="middle" fill="#3a2a20">JAIPUR DISTRICT — JAIPUR REGION</text>
+
+  <!-- Rajasthan state outline in right panel (zoomed) -->
+  <path d="M 420,100 L 490,82 L 570,80 L 640,95 L 710,115
+           L 755,140 L 775,170 L 770,205 L 750,240 L 720,270
+           L 680,295 L 635,310 L 585,318 L 530,315 L 475,305
+           L 430,290 L 405,265 L 400,235 L 405,200 L 415,165 L 420,130 Z"
+        fill="#ddd4be" stroke="#8a6a4a" stroke-width="1" opacity="0.6"/>
+
+  <!-- Key cities -->
+  <circle cx="595" cy="195" r="4" fill="#555" stroke="#333" stroke-width="0.8"/>
+  <text x="604" y="194" font-size="8" fill="#333">Jaipur</text>
+
+  <circle cx="475" cy="190" r="3" fill="#555" stroke="#333" stroke-width="0.8"/>
+  <text x="464" y="189" font-size="7" text-anchor="end" fill="#333">Ajmer</text>
+
+  <circle cx="520" cy="115" r="3" fill="#555" stroke="#333" stroke-width="0.8"/>
+  <text x="526" y="114" font-size="7" fill="#333">Alwar</text>
+
+  <circle cx="670" cy="240" r="3" fill="#555" stroke="#333" stroke-width="0.8"/>
+  <text x="676" y="240" font-size="7" fill="#333">Kota</text>
+
+  <!-- Man Sagar Lake marker (north of Jaipur on Amber road) -->
+  <g transform="translate(598, 175)">
+    <polygon points="0,-10 3,-3 10,-3 4,1 6,8 0,4 -6,8 -4,1 -10,-3 -3,-3"
+             fill="#8B0000" stroke="#1a1a1a" stroke-width="1"/>
+    <circle cx="0" cy="0" r="2" fill="#1a1a1a"/>
+  </g>
+  <text x="612" y="172" font-size="9" font-weight="bold" fill="#8B0000">JAL MAHAL</text>
+  <text x="612" y="183" font-size="7.5" font-style="italic" fill="#5a2020">Man Sagar Lake</text>
+
+  <!-- Amber Fort nearby -->
+  <circle cx="610" cy="162" r="3" fill="#7a4a2a" stroke="#5a3a1a" stroke-width="0.8"/>
+  <text x="617" y="161" font-size="7" fill="#7a4a2a">Amber Fort</text>
+
+  <!-- Nahargarh direction -->
+  <circle cx="583" cy="183" r="2.5" fill="#7a4a2a"/>
+  <text x="572" y="182" font-size="7" text-anchor="end" fill="#7a4a2a">Nahargarh</text>
+
+  <!-- NH-11 / NH-52 road from Delhi to Jaipur (passes by lake) -->
+  <path d="M 542,118 L 560,138 L 578,158 L 596,174 L 612,192 L 630,215"
+        fill="none" stroke="#c8a020" stroke-width="2" stroke-dasharray="5,2"/>
+  <text x="545" y="130" font-size="7" fill="#9a7820" transform="rotate(42 545 130)">NH-52</text>
+
+  <!-- Compass (right panel) -->
+  <g transform="translate(415, 105)">
+    <circle cx="0" cy="0" r="15" fill="#fff" stroke="#5a4030" stroke-width="1"/>
+    <polygon points="0,-10 3,0 0,10 -3,0" fill="#8B0000"/>
+    <text x="0" y="-18" font-size="9" font-weight="bold" text-anchor="middle" fill="#3a2a20">N</text>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(420, 335)">
+    <rect x="0" y="0" width="350" height="60" fill="#fff" stroke="#5a4030" stroke-width="1"/>
+    <polygon points="12,15 14,20 20,20 15,24 17,30 12,26 7,30 9,24 4,20 10,20"
+             fill="#8B0000" stroke="#1a1a1a" stroke-width="0.8"/>
+    <text x="28" y="20" font-size="8.5" fill="#1a1a1a">Jal Mahal (Man Sagar Lake)</text>
+    <circle cx="12" cy="40" r="3" fill="#555" stroke="#333" stroke-width="0.8"/>
+    <text x="22" y="44" font-size="8.5" fill="#1a1a1a">Major town</text>
+    <line x1="130" y1="40" x2="160" y2="40" stroke="#c8a020" stroke-width="2" stroke-dasharray="4,2"/>
+    <text x="168" y="44" font-size="8.5" fill="#1a1a1a">National Highway</text>
+  </g>
+
+  <text x="400" y="428" font-size="8" font-style="italic" text-anchor="middle" fill="#888">
+    Stylized overview maps — positions approximate; for author orientation only
+  </text>
+</svg>
