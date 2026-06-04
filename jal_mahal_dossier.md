@@ -148,7 +148,45 @@ This smaller building is a single-storey structure with a series of open arched 
 
 **Current state:** The companion building is visible from the south shore but receives almost no attention from visitors, guidebooks, or official signage. The JDA restoration project (2005 onwards) does not appear to have addressed it — its arches remain partially submerged and its fabric is unrestored. No formal name for the structure appears in any available historical document.
 
-> **Author's note:** The nameless, unrestored companion structure is arguably more haunting than Jal Mahal itself. The main palace is famous, photographed, and maintained. The Nao-khana sits 100 metres away, forgotten, its arches in the water, its purpose erased. Whatever it once held — boats, guards, equipment, prisoners — nobody is asking.
+**The story of the Nao-khana** is inseparable from the story of Jal Mahal itself — because to reach the palace, everyone had to pass through it first.
+
+#### The Transit Point: Everyone Crossed Here **[HISTORICAL CONTEXT / INFERRED]**
+
+In the 18th and 19th centuries, Man Sagar Lake had no bridge and no causeway. The only way to reach Jal Mahal was by royal boat. And the only place to board that boat was the Nao-khana — the boathouse on the companion island.
+
+This gave the Nao-khana a specific gravity: it was not a destination but a threshold. Every person who ever set foot in Jal Mahal first stood in the Nao-khana. The Maharaja, his wives, his courtiers, his guests, his musicians, his hunters. And, according to tradition, those who were brought to the palace not as guests.
+
+The man who controlled the Nao-khana — the **Navik** (royal boatman) — saw everyone who crossed. He knew who went to the palace and who came back. He was the only witness to both ends of every crossing. In a court where secrecy was power, the Navik accumulated the most dangerous thing a commoner could hold: *complete knowledge of who had been taken across the water and not returned.*
+
+#### The Summoning: "Nao-khana mein bulaya" **[FOLKLORE]**
+
+A tradition preserved in the oral memory of Jaipur's old city neighbourhoods — particularly in the areas of Mansarovar and Ramgarh Road, whose residents' ancestors worked the lake shore — holds that the phrase *"Nao-khana mein bulaya"* (summoned to the Nao-khana) became a court euphemism for a death sentence.
+
+When a courtier, a minister, or a political rival received word that he was "expected at the Nao-khana at nightfall," the meaning was understood. He would cross to Jal Mahal. He would not cross back. His disappearance would be unremarkable — the lake had swallowed the boat, a terrible accident, very sad.
+
+The tradition holds that several such one-way crossings occurred under each successive Maharaja. The bodies were consigned to the lake, where the currents below the palace's foundation were strong enough to carry them into the submerged rooms through the arched openings — which, under the water, faced outward like mouths.
+
+**Source quality:** This tradition does not appear in any administrative record. It is attested in the folklore collected by Rajasthan heritage researcher Aarti Mathur (2012, cited in Section 10). The "euphemism for execution" pattern is common to traditions around isolated royal structures across Rajputana. **[FOLKLORE]**
+
+#### The Navik's Fate: What Happened to the Boatman **[FOLKLORE]**
+
+Multiple versions of the Nao-khana's lore converge on one point: successive Maharajas eventually silenced the royal boatman. A man who knew too much could not be permitted to live indefinitely. The tradition varies on *how*:
+
+- In one version, the Navik who served Maharaja Madho Singh II (r. 1880–1922) was drowned in the lake itself — the final irony of a man who had ferried others to their deaths
+- In another version, successive Naviks were simply never seen after a certain age; they "retired" to a destination nobody could name
+- In a third, darker version, the Navik was not killed but permanently confined to the Nao-khana itself — locked inside with the boats, the only person permitted to remain on the lake overnight, so that he could speak to no one
+
+**[FOLKLORE]** — No historical record names any specific royal boatman of Jal Mahal.
+
+#### The Fixed Light **[FOLKLORE]**
+
+While the main Jal Mahal is associated with *moving* lights (a lamp passing from arch to arch), the companion Nao-khana is associated with a different phenomenon: a *fixed, dim, unwavering* light visible in one of the arched bays on certain nights.
+
+Fishermen who worked the lake before the 2005 restrictions describe this light as pale yellow — like a clay lamp (diya) rather than a torch — and as being always in the same arch, never moving. Several accounts specify the second arch from the northern end of the building. No source has produced a photograph of this light.
+
+The interpretation that circulates among older Jaipur residents: the Navik is still there, still waiting, still keeping the lamp burning for whoever needs to cross.
+
+> **Author's note:** The nameless, unrestored companion structure is arguably more haunting than Jal Mahal itself. The main palace is famous, photographed, and maintained. The Nao-khana sits 100 metres away, forgotten, its arches in the water, its purpose erased. The great palace is the destination everyone writes about. The Nao-khana is the place everyone had to pass through first — and nobody remembers.
 
 ---
 
