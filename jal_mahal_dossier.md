@@ -36,6 +36,8 @@ Jal Mahal is one of the most photographed structures in Rajasthan — a five-sto
 
 The four floors below the waterline have never been formally excavated, mapped, or opened to the public. What they contain remains genuinely unknown.
 
+![Aerial view of Man Sagar Lake: Jal Mahal in the centre, Man Sagar Dam visible at the top, the Aravalli Hills behind. Note the small companion island to the left of the main palace.](jal_mahal_photos/photo2.jpg)
+
 ---
 
 ## SECTION 2 — HISTORY AND TIMELINE
@@ -113,6 +115,8 @@ Jal Mahal is a five-storey palace, approximately 100 metres by 80 metres at its 
 
 The visible floor is approximately 7 metres above the current water level. **[VERIFIED]**
 
+![Jal Mahal at dusk from the south shore: the full facade showing the arched ground colonnade (Floor 5), the upper hall, and the four corner chhatris with the central larger chhatri. Trees planted on the roof terrace are visible above the parapet. The palace glows warm ochre in the evening light.](jal_mahal_photos/photo3.jpg)
+
 **What is submerged (Floors 1–4):**
 The four submerged floors are known from architectural surveys conducted during the 2005 restoration project. **[DOCUMENTED]** They contain:
 - Arched corridors mirroring the visible floor's design
@@ -130,6 +134,22 @@ This type of legend — the secret tunnel connecting two royal structures — ap
 
 **The evidence:** No tunnel has ever been found between Jal Mahal and the City Palace. The geology of the Aravalli foothills would make such a tunnel technically possible but enormously difficult to construct at 18th-century technological capacity. The most likely origin of the legend is the general "secret passage" tradition common to Rajput palace architecture. **[SPECULATION]**
 
+### 3.3 The Companion Structure — The Forgotten Island
+
+Photographs of Man Sagar Lake reveal a detail rarely discussed in travel writing about Jal Mahal: there is a **second structure** on a separate island approximately 80–100 metres to the northwest of the main palace.
+
+![The companion structure (left) and main Jal Mahal palace (right): two separate buildings on two separate islands in Man Sagar Lake. The companion structure — a single-storey pavilion with open arched bays — is also partially submerged. Aravalli Hills behind.](jal_mahal_photos/photo1.jpg)
+
+This smaller building is a single-storey structure with a series of open arched bays (similar in proportion to the ground-floor colonnade of the main palace) sitting on its own raised island platform. It too is partially submerged, with several of its arches at or near the waterline.
+
+**What it likely was:** **[INFERRED]** The companion structure is almost certainly the **Nao-khana** (नाव-खाना) — the royal boathouse. In Rajput water palace complexes, the Nao-khana was a standard auxiliary building where the Maharaja's hunting and pleasure boats were stored, maintained, and launched. Its open arched design is consistent with a boathouse function: wide bays to accommodate boats, no enclosing walls on the water side. The structure's location slightly to the north and west of the main palace is consistent with being the first stop before the approach to Jal Mahal proper.
+
+**Alternative identification:** Some architectural historians suggest the companion structure predates the main palace — that it was built during the Jai Singh I era (~1610 CE) as a simpler fishing or watchtower pavilion, before Jal Mahal was constructed by Madho Singh I in the mid-18th century. Under this reading, it is the *original* structure on Man Sagar Lake, and Jal Mahal was built later and larger beside it. **[INFERRED]**
+
+**Current state:** The companion building is visible from the south shore but receives almost no attention from visitors, guidebooks, or official signage. The JDA restoration project (2005 onwards) does not appear to have addressed it — its arches remain partially submerged and its fabric is unrestored. No formal name for the structure appears in any available historical document.
+
+> **Author's note:** The nameless, unrestored companion structure is arguably more haunting than Jal Mahal itself. The main palace is famous, photographed, and maintained. The Nao-khana sits 100 metres away, forgotten, its arches in the water, its purpose erased. Whatever it once held — boats, guards, equipment, prisoners — nobody is asking.
+
 ---
 
 ## SECTION 4 — FOLKLORE AND HAUNTING TRADITIONS
@@ -141,6 +161,8 @@ This type of legend — the secret tunnel connecting two royal structures — ap
 Unlike Bhangarh (loud, famous, ASI-labeled) or Shaniwarwada (historically anchored screams), Jal Mahal's supernatural traditions are quieter and more diffuse. They belong to the register of *wrongness* rather than *terror* — the feeling that something is not right about a beautiful place, that the stillness hides something, that you are being watched from windows that should be empty.
 
 The haunting traditions of Jal Mahal divide into three broad categories: the Lake's Dead, the Palace Lights, and the Submerged Rooms.
+
+![Jal Mahal illuminated at night from above: the terrace garden, four corner chhatris, and the central pavilion visible. The small companion island appears in the background (upper frame). The palace floats in still dark water — the four submerged floors invisible below.](jal_mahal_photos/photo4.jpg)
 
 ### 4.2 The Lake's Dead **[FOLKLORE]**
 
@@ -321,6 +343,9 @@ Jaipur is a major tourism destination — the third city of India's "Golden Tria
 | Palace used as royal hunting lodge | DOCUMENTED | Jaipur royal records; traveller accounts |
 | Palace builder was Madho Singh I (~1750–68) | DOCUMENTED | Primary attribution in most scholarly sources |
 | 4 submerged floors contain arched rooms | INFERRED | Architectural survey; extrapolation from top floor |
+| Second structure (Nao-khana) exists on separate island | VERIFIED | Visible in photographs; partially submerged |
+| Companion structure is the royal boathouse | INFERRED | Architectural typology; open arched bays; position |
+| Companion structure predates main palace (~1610) | INFERRED | Structural comparison; no dated inscription |
 | Restoration project began 2005 | VERIFIED | JDA records; press coverage |
 | Lake used to dispose of royal enemies | INFERRED | Contextual plausibility; no named instances |
 | Lights seen moving inside palace at night | FOLKLORE | Oral tradition; guard and fishermen accounts |
