@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="Georgia, serif">
+  <rect width="800" height="500" fill="#f4f0ea"/>
+
+  <text x="400" y="28" font-size="16" font-weight="bold" text-anchor="middle" fill="#1a1a1a">FIG 1 — LOCATION: CHAND BAORI IN NATIONAL CONTEXT</text>
+  <text x="400" y="46" font-size="10" font-style="italic" text-anchor="middle" fill="#666">Abhaneri, Dausa District, Rajasthan — 95 km east of Jaipur</text>
+
+  <!-- India outline (simplified polygon) -->
+  <polygon points="
+    310,72  330,58  360,55  395,58  430,60  470,65  510,72
+    545,78  570,88  590,100 608,118 618,135 620,152 618,168
+    610,182 598,195 590,205 580,218 572,232 568,248 572,262
+    580,275 588,288 590,302 585,318 575,330 560,340 542,350
+    525,358 510,365 492,370 475,372 462,370 450,365 440,358
+    432,348 428,338 422,326 415,315 408,305 400,298 392,308
+    384,318 378,330 370,340 358,346 345,348 330,345 318,338
+    308,328 298,315 290,300 284,285 280,270 278,252 280,238
+    282,225 288,212 295,200 302,188 308,175 310,162 308,148
+    304,135 300,122 298,108 300,95  305,82  310,72"
+    fill="#e8d8c0" stroke="#8a7050" stroke-width="1.5"/>
+
+  <!-- Rajasthan state highlighted -->
+  <polygon points="
+    310,72  330,58  360,55  395,58  418,63
+    420,78  418,95  415,112 410,128 406,145
+    402,162 400,178 398,195 396,212 395,225
+    390,238 385,250 380,262 375,272
+    365,268 352,262 340,255 328,248 316,242
+    305,235 296,228 290,220 285,212 282,200
+    286,188 292,175 298,162 304,148 308,135
+    310,120 308,108 300,95  305,82  310,72"
+    fill="#d4a860" opacity="0.7" stroke="#8a6020" stroke-width="1.8"/>
+
+  <!-- Rajasthan label -->
+  <text x="360" y="170" font-size="13" font-weight="bold" text-anchor="middle" fill="#6a4010" opacity="0.9">RAJASTHAN</text>
+
+  <!-- Dausa district inset highlight -->
+  <ellipse cx="400" cy="218" rx="22" ry="16" fill="#8B0000" opacity="0.2" stroke="#8B0000" stroke-width="1.5"/>
+
+  <!-- Abhaneri red dot -->
+  <circle cx="400" cy="218" r="7" fill="#8B0000" stroke="#5a0000" stroke-width="1.5"/>
+  <circle cx="400" cy="218" r="3" fill="#ff4444"/>
+
+  <!-- Abhaneri label -->
+  <text x="412" y="214" font-size="11" font-weight="bold" fill="#8B0000">Abhaneri</text>
+  <text x="412" y="226" font-size="9" font-style="italic" fill="#8B0000">(Chand Baori)</text>
+
+  <!-- Jaipur dot -->
+  <circle cx="372" cy="212" r="5" fill="#2a5a9a" stroke="#1a3a7a" stroke-width="1.2"/>
+  <text x="360" y="203" font-size="10" font-weight="bold" text-anchor="middle" fill="#2a5a9a">Jaipur</text>
+
+  <!-- Dausa dot -->
+  <circle cx="410" cy="213" r="4" fill="#555" stroke="#333" stroke-width="1"/>
+  <text x="418" y="210" font-size="9" fill="#444">Dausa</text>
+
+  <!-- Delhi dot (for reference) -->
+  <circle cx="418" cy="108" r="5" fill="#4a4a9a" stroke="#2a2a7a" stroke-width="1.2"/>
+  <text x="428" y="106" font-size="9.5" font-weight="bold" fill="#4a4a9a">Delhi</text>
+
+  <!-- Agra dot -->
+  <circle cx="430" cy="135" r="4" fill="#555" stroke="#333" stroke-width="1"/>
+  <text x="440" y="133" font-size="9" fill="#444">Agra</text>
+
+  <!-- Mumbai dot -->
+  <circle cx="308" cy="305" r="4" fill="#4a4a9a" stroke="#2a2a7a" stroke-width="1.2"/>
+  <text x="296" y="302" font-size="9" font-weight="bold" text-anchor="end" fill="#4a4a9a">Mumbai</text>
+
+  <!-- Connectivity lines -->
+  <line x1="372" y1="212" x2="400" y2="218" stroke="#8B0000" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <line x1="418" y1="108" x2="400" y2="218" stroke="#888" stroke-width="1" stroke-dasharray="3,3" opacity="0.5"/>
+
+  <!-- Distance callouts -->
+  <text x="384" y="223" font-size="8" fill="#8B0000" font-style="italic">95 km</text>
+  <text x="422" y="165" font-size="8" fill="#666" font-style="italic">~230 km</text>
+
+  <!-- NH-21 label -->
+  <line x1="418" y1="135" x2="400" y2="218" stroke="#e8c040" stroke-width="2.5" opacity="0.6"/>
+  <text x="430" y="180" font-size="8" fill="#8a6010" font-style="italic">NH-21</text>
+
+  <!-- Compass rose -->
+  <g transform="translate(680, 160)">
+    <circle cx="0" cy="0" r="28" fill="#fff" stroke="#5a4030" stroke-width="1.5"/>
+    <polygon points="0,-20 4,0 0,20 -4,0" fill="#8B0000"/>
+    <polygon points="-20,0 0,4 20,0 0,-4" fill="#555"/>
+    <text x="0" y="-28" font-size="13" font-weight="bold" text-anchor="middle" fill="#3a2a20">N</text>
+    <text x="28" y="4" font-size="9" text-anchor="start" fill="#555">E</text>
+    <text x="-28" y="4" font-size="9" text-anchor="end" fill="#555">W</text>
+    <text x="0" y="42" font-size="9" text-anchor="middle" fill="#555">S</text>
+  </g>
+
+  <!-- Scale bar -->
+  <g transform="translate(600, 400)">
+    <line x1="0" y1="0" x2="120" y2="0" stroke="#5a4030" stroke-width="1.5"/>
+    <line x1="0" y1="-5" x2="0" y2="5" stroke="#5a4030" stroke-width="1.5"/>
+    <line x1="60" y1="-4" x2="60" y2="4" stroke="#5a4030" stroke-width="1"/>
+    <line x1="120" y1="-5" x2="120" y2="5" stroke="#5a4030" stroke-width="1.5"/>
+    <text x="0" y="15" font-size="8" text-anchor="middle" fill="#5a4030">0</text>
+    <text x="60" y="15" font-size="8" text-anchor="middle" fill="#5a4030">250</text>
+    <text x="120" y="15" font-size="8" text-anchor="middle" fill="#5a4030">500 km</text>
+  </g>
+
+  <!-- Info box -->
+  <g transform="translate(540, 58)">
+    <rect x="0" y="0" width="240" height="110" fill="#fff" stroke="#3a2a20" stroke-width="1.2" rx="2"/>
+    <text x="120" y="18" font-size="10" font-weight="bold" text-anchor="middle" fill="#8B0000">LOCATION SUMMARY</text>
+    <text x="10" y="34" font-size="8.5" fill="#1a1a1a">State: Rajasthan</text>
+    <text x="10" y="48" font-size="8.5" fill="#1a1a1a">District: Dausa</text>
+    <text x="10" y="62" font-size="8.5" fill="#1a1a1a">Village: Abhaneri</text>
+    <text x="10" y="76" font-size="8.5" fill="#1a1a1a">Jaipur: 95 km (NH-21)</text>
+    <text x="10" y="90" font-size="8.5" fill="#1a1a1a">Delhi: ~230 km</text>
+    <text x="10" y="104" font-size="8.5" fill="#1a1a1a">Nearest rail: Bandikui (12 km)</text>
+  </g>
+
+  <!-- State borders (simplified neighboring states) -->
+  <text x="320" y="260" font-size="8" font-style="italic" fill="#888">Gujarat</text>
+  <text x="440" y="180" font-size="8" font-style="italic" fill="#888">Uttar Pradesh</text>
+  <text x="440" y="250" font-size="8" font-style="italic" fill="#888">Madhya Pradesh</text>
+  <text x="258" y="160" font-size="8" font-style="italic" fill="#888">Punjab/Haryana</text>
+
+  <!-- Footer -->
+  <text x="400" y="490" font-size="8" font-style="italic" text-anchor="middle" fill="#888">
+    Stylized reference map — not to surveyed scale
+  </text>
+</svg>

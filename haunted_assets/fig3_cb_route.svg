@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="Georgia, serif">
+  <rect width="800" height="500" fill="#f9f4ed"/>
+
+  <text x="400" y="28" font-size="16" font-weight="bold" text-anchor="middle" fill="#1a1a1a">FIG 3 — CONNECTIVITY: HOW TO REACH CHAND BAORI</text>
+  <text x="400" y="46" font-size="10" font-style="italic" text-anchor="middle" fill="#666">From Jaipur · From Delhi · By road, rail, and local transport</text>
+
+  <!-- ═══ ROUTE 1: Jaipur by Road ═══ -->
+  <g transform="translate(60, 80)">
+    <rect x="0" y="0" width="680" height="110" fill="#fff8ee" stroke="#8B0000" stroke-width="1.5" rx="3"/>
+    <text x="16" y="22" font-size="11" font-weight="bold" fill="#8B0000">ROUTE A — BY ROAD FROM JAIPUR  (Recommended)</text>
+
+    <!-- Route nodes -->
+    <!-- Jaipur -->
+    <rect x="16" y="36" width="90" height="44" fill="#2a5a9a" rx="3"/>
+    <text x="61" y="55" font-size="9.5" font-weight="bold" text-anchor="middle" fill="#fff">JAIPUR</text>
+    <text x="61" y="70" font-size="8" text-anchor="middle" fill="#cce">Pink City</text>
+
+    <!-- Arrow + highway label -->
+    <line x1="106" y1="58" x2="170" y2="58" stroke="#c8a020" stroke-width="3"/>
+    <polygon points="170,54 182,58 170,62" fill="#c8a020"/>
+    <text x="143" y="52" font-size="8" text-anchor="middle" fill="#8a6010">NH-21</text>
+    <text x="143" y="72" font-size="7.5" text-anchor="middle" fill="#8a6010">~80 km · 1.5 hrs</text>
+
+    <!-- Bandikui -->
+    <rect x="182" y="36" width="90" height="44" fill="#5a7a3a" rx="3"/>
+    <text x="227" y="52" font-size="8.5" font-weight="bold" text-anchor="middle" fill="#fff">BANDIKUI</text>
+    <text x="227" y="64" font-size="7.5" text-anchor="middle" fill="#dde">Junction</text>
+    <text x="227" y="76" font-size="7" text-anchor="middle" fill="#bbc">(Rail + Road)</text>
+
+    <!-- Arrow -->
+    <line x1="272" y1="58" x2="338" y2="58" stroke="#8a7050" stroke-width="2.5" stroke-dasharray="5,3"/>
+    <polygon points="338,54 350,58 338,62" fill="#8a7050"/>
+    <text x="309" y="52" font-size="8" text-anchor="middle" fill="#5a4030">District Rd</text>
+    <text x="309" y="72" font-size="7.5" text-anchor="middle" fill="#5a4030">12 km · 20 min</text>
+
+    <!-- Abhaneri -->
+    <rect x="350" y="30" width="100" height="56" fill="#8B0000" rx="3"/>
+    <text x="400" y="52" font-size="10" font-weight="bold" text-anchor="middle" fill="#fff">ABHANERI</text>
+    <text x="400" y="66" font-size="8.5" text-anchor="middle" fill="#ffcccc">Chand Baori</text>
+    <text x="400" y="80" font-size="8" text-anchor="middle" fill="#ffaaaa">Harshat Mata</text>
+
+    <!-- Total time callout -->
+    <rect x="470" y="36" width="200" height="44" fill="#f0e8d0" stroke="#8a7050" stroke-width="1" rx="2"/>
+    <text x="570" y="54" font-size="9.5" font-weight="bold" text-anchor="middle" fill="#5a3010">Total: ~95 km · ~2 hrs</text>
+    <text x="570" y="68" font-size="8.5" text-anchor="middle" fill="#7a5030">Taxi / own vehicle preferred</text>
+    <text x="570" y="80" font-size="8" text-anchor="middle" fill="#7a5030">(RSRTC buses from Jaipur also)</text>
+  </g>
+
+  <!-- ═══ ROUTE 2: From Delhi ═══ -->
+  <g transform="translate(60, 208)">
+    <rect x="0" y="0" width="680" height="110" fill="#fff8f0" stroke="#5a4030" stroke-width="1.2" rx="3"/>
+    <text x="16" y="22" font-size="11" font-weight="bold" fill="#5a3010">ROUTE B — FROM DELHI (overnight or same-day)</text>
+
+    <!-- Delhi -->
+    <rect x="16" y="36" width="90" height="44" fill="#4a4a9a" rx="3"/>
+    <text x="61" y="58" font-size="9.5" font-weight="bold" text-anchor="middle" fill="#fff">DELHI</text>
+    <text x="61" y="72" font-size="8" text-anchor="middle" fill="#cce">~230 km</text>
+
+    <!-- Option 1: Jaipur Express + road -->
+    <line x1="106" y1="48" x2="172" y2="48" stroke="#5a4030" stroke-width="2.5"/>
+    <polygon points="172,44 184,48 172,52" fill="#5a4030"/>
+    <text x="143" y="42" font-size="7.5" text-anchor="middle" fill="#3a2010">Train to</text>
+    <text x="143" y="54" font-size="7.5" text-anchor="middle" fill="#3a2010">Bandikui</text>
+    <text x="143" y="66" font-size="7" text-anchor="middle" fill="#5a4030">~2.5 hrs</text>
+
+    <!-- Bandikui box -->
+    <rect x="184" y="32" width="90" height="52" fill="#5a7a3a" rx="3"/>
+    <text x="229" y="52" font-size="8.5" font-weight="bold" text-anchor="middle" fill="#fff">BANDIKUI</text>
+    <text x="229" y="64" font-size="7.5" text-anchor="middle" fill="#dde">Railway Stn.</text>
+    <text x="229" y="76" font-size="7" text-anchor="middle" fill="#ccd">Auto/taxi to</text>
+
+    <line x1="274" y1="58" x2="340" y2="58" stroke="#8a7050" stroke-width="2.5" stroke-dasharray="5,3"/>
+    <polygon points="340,54 352,58 340,62" fill="#8a7050"/>
+    <text x="311" y="52" font-size="7.5" text-anchor="middle" fill="#5a4030">Auto / taxi</text>
+    <text x="311" y="72" font-size="7" text-anchor="middle" fill="#5a4030">12 km</text>
+
+    <!-- Abhaneri -->
+    <rect x="352" y="30" width="100" height="56" fill="#8B0000" rx="3"/>
+    <text x="402" y="52" font-size="10" font-weight="bold" text-anchor="middle" fill="#fff">ABHANERI</text>
+    <text x="402" y="66" font-size="8.5" text-anchor="middle" fill="#ffcccc">Chand Baori</text>
+    <text x="402" y="80" font-size="7.5" text-anchor="middle" fill="#ffaaaa">Total: ~5–6 hrs</text>
+
+    <!-- Tip box -->
+    <rect x="470" y="36" width="200" height="44" fill="#f0e8d0" stroke="#8a7050" stroke-width="1" rx="2"/>
+    <text x="570" y="52" font-size="8.5" font-weight="bold" text-anchor="middle" fill="#5a3010">Tip: Combine with Bhangarh</text>
+    <text x="570" y="66" font-size="8" text-anchor="middle" fill="#7a5030">75 km apart — feasible in one</text>
+    <text x="570" y="78" font-size="8" text-anchor="middle" fill="#7a5030">day trip with early start</text>
+  </g>
+
+  <!-- ═══ PRACTICAL LOGISTICS ═══ -->
+  <g transform="translate(60, 338)">
+    <rect x="0" y="0" width="680" height="128" fill="#fff" stroke="#3a2a20" stroke-width="1.2" rx="2"/>
+    <text x="340" y="18" font-size="11" font-weight="bold" text-anchor="middle" fill="#8B0000">PRACTICAL LOGISTICS FOR THE AUTHOR</text>
+
+    <text x="16" y="36" font-size="8.5" font-weight="bold" fill="#1a1a1a">SITE ACCESS</text>
+    <text x="16" y="50" font-size="8.5" fill="#1a1a1a">• Entry: Archaeological Survey of India (ASI) controlled; nominal fee (~₹40 Indian / ₹600 foreign)</text>
+    <text x="16" y="64" font-size="8.5" fill="#1a1a1a">• Hours: Sunrise to sunset; closed after dark (no ghost-tour access)</text>
+    <text x="16" y="78" font-size="8.5" fill="#1a1a1a">• CRITICAL RESTRICTION: Visitors may NOT descend the steps — view only from the top rim</text>
+    <text x="16" y="94" font-size="8.5" fill="#1a1a1a">• Photography: permitted; no tripods without special permit</text>
+    <text x="16" y="110" font-size="8.5" fill="#1a1a1a">• Harshat Mata temple: separately maintained; open for worship; small museum of recovered sculptures</text>
+    <text x="16" y="124" font-size="8" font-style="italic" fill="#8B0000">• Best light for photography: 7–9am (golden hour from east); stepwell is oriented to catch morning light</text>
+  </g>
+
+  <text x="400" y="490" font-size="8" font-style="italic" text-anchor="middle" fill="#888">
+    Travel times are approximate; confirm current road/rail conditions before visiting
+  </text>
+</svg>

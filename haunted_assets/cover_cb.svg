@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="Georgia, serif">
+  <defs>
+    <linearGradient id="bgCB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#050510"/>
+      <stop offset="55%" stop-color="#0a0820"/>
+      <stop offset="100%" stop-color="#0e1428"/>
+    </linearGradient>
+    <linearGradient id="waterCB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a3a5a"/>
+      <stop offset="100%" stop-color="#050a14"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky background -->
+  <rect width="800" height="500" fill="url(#bgCB)"/>
+
+  <!-- Stars -->
+  <g fill="#e8e0c0" opacity="0.65">
+    <circle cx="60" cy="30" r="1.1"/><circle cx="130" cy="18" r="0.7"/>
+    <circle cx="210" cy="42" r="1.3"/><circle cx="290" cy="12" r="0.9"/>
+    <circle cx="380" cy="28" r="0.6"/><circle cx="480" cy="38" r="1.2"/>
+    <circle cx="560" cy="16" r="0.8"/><circle cx="640" cy="34" r="1.0"/>
+    <circle cx="710" cy="22" r="1.4"/><circle cx="760" cy="48" r="0.7"/>
+    <circle cx="95" cy="65" r="0.8"/><circle cx="175" cy="75" r="1.0"/>
+    <circle cx="340" cy="58" r="0.6"/><circle cx="440" cy="70" r="1.1"/>
+    <circle cx="620" cy="62" r="0.7"/><circle cx="740" cy="76" r="0.9"/>
+    <circle cx="30" cy="88" r="1.2"/><circle cx="500" cy="22" r="0.8"/>
+  </g>
+
+  <!-- Crescent moon (Chand = Moon) -->
+  <circle cx="690" cy="58" r="42" fill="#e8d870" opacity="0.88"/>
+  <circle cx="712" cy="50" r="37" fill="#050510"/>
+  <!-- Moon glow -->
+  <circle cx="690" cy="58" r="55" fill="none" stroke="#e8d870" stroke-width="1" opacity="0.2"/>
+
+  <!-- ═══ STEPWELL viewed from above — concentric descending tiers ═══ -->
+  <!-- The iconic Chand Baori look: nested rectangles, each tier deeper/darker -->
+  <!-- Ground rim (tier 0) -->
+  <rect x="100" y="105" width="600" height="345" fill="#c0a878" stroke="#5a3a10" stroke-width="1.8"/>
+  <!-- Tier 1 -->
+  <rect x="116" y="115" width="568" height="325" fill="#b09868"/>
+  <!-- Tier 2 -->
+  <rect x="132" y="125" width="536" height="305" fill="#a08858"/>
+  <!-- Tier 3 -->
+  <rect x="148" y="135" width="504" height="285" fill="#907848"/>
+  <!-- Tier 4 -->
+  <rect x="164" y="145" width="472" height="265" fill="#806840"/>
+  <!-- Tier 5 -->
+  <rect x="180" y="155" width="440" height="245" fill="#705838"/>
+  <!-- Tier 6 -->
+  <rect x="196" y="165" width="408" height="225" fill="#604830"/>
+  <!-- Tier 7 -->
+  <rect x="212" y="175" width="376" height="205" fill="#503c28" />
+  <!-- Tier 8 -->
+  <rect x="228" y="185" width="344" height="185" fill="#403020"/>
+  <!-- Tier 9 -->
+  <rect x="244" y="195" width="312" height="165" fill="#302818"/>
+  <!-- Tier 10 -->
+  <rect x="260" y="205" width="280" height="145" fill="#201e18"/>
+  <!-- Tier 11 -->
+  <rect x="276" y="215" width="248" height="125" fill="#121420"/>
+  <!-- Tier 12 -->
+  <rect x="292" y="225" width="216" height="105" fill="#0c1020"/>
+  <!-- Water at the bottom (tier 13) -->
+  <rect x="308" y="235" width="184" height="85" fill="url(#waterCB)"/>
+
+  <!-- Moon reflection in water -->
+  <ellipse cx="400" cy="262" rx="32" ry="12" fill="#e8d870" opacity="0.30"/>
+  <ellipse cx="400" cy="262" rx="16" ry="5" fill="#e8d870" opacity="0.20"/>
+
+  <!-- Stairway zigzag lines on left wall (characteristic Chand Baori pattern) -->
+  <g stroke="#d4b870" stroke-width="0.8" opacity="0.35">
+    <!-- Diagonal step lines on the top strip (south face) -->
+    <line x1="116" y1="115" x2="132" y2="125"/><line x1="148" y1="115" x2="164" y2="125"/>
+    <line x1="180" y1="115" x2="196" y2="125"/><line x1="212" y1="115" x2="228" y2="125"/>
+    <line x1="244" y1="115" x2="260" y2="125"/><line x1="276" y1="115" x2="292" y2="125"/>
+    <line x1="308" y1="115" x2="324" y2="125"/><line x1="340" y1="115" x2="356" y2="125"/>
+    <line x1="372" y1="115" x2="388" y2="125"/><line x1="404" y1="115" x2="420" y2="125"/>
+    <line x1="436" y1="115" x2="452" y2="125"/><line x1="468" y1="115" x2="484" y2="125"/>
+    <line x1="500" y1="115" x2="516" y2="125"/><line x1="532" y1="115" x2="548" y2="125"/>
+    <line x1="564" y1="115" x2="580" y2="125"/><line x1="596" y1="115" x2="612" y2="125"/>
+    <line x1="628" y1="115" x2="644" y2="125"/><line x1="660" y1="115" x2="676" y2="125"/>
+    <!-- Left face diagonal lines -->
+    <line x1="100" y1="120" x2="116" y2="135"/><line x1="100" y1="150" x2="116" y2="165"/>
+    <line x1="100" y1="180" x2="116" y2="195"/><line x1="100" y1="210" x2="116" y2="225"/>
+    <line x1="100" y1="240" x2="116" y2="255"/><line x1="100" y1="270" x2="116" y2="285"/>
+    <line x1="100" y1="300" x2="116" y2="315"/><line x1="100" y1="330" x2="116" y2="345"/>
+    <line x1="100" y1="360" x2="116" y2="375"/><line x1="100" y1="390" x2="116" y2="405"/>
+    <line x1="100" y1="420" x2="116" y2="435"/>
+  </g>
+
+  <!-- Title text band at very top -->
+  <rect x="0" y="0" width="800" height="100" fill="#050510" opacity="0.7"/>
+  <text x="400" y="40" font-size="34" font-weight="bold" text-anchor="middle" fill="#8B0000" letter-spacing="5">CHAND BAORI</text>
+  <text x="400" y="62" font-size="14" font-style="italic" text-anchor="middle" fill="#c8a878" letter-spacing="1">चाँद बावड़ी  ·  The Moonwell of Abhaneri</text>
+  <text x="400" y="82" font-size="9.5" text-anchor="middle" fill="#888888">ABHANERI · DAUSA DISTRICT · RAJASTHAN · c. 800 CE · 13 STORIES · ~30 m DEPTH · 3,500 STEPS</text>
+
+  <!-- Bottom label band -->
+  <rect x="0" y="455" width="800" height="45" fill="#050510" opacity="0.75"/>
+  <text x="400" y="471" font-size="9" text-anchor="middle" fill="#aaaaaa">NIKUMBHA DYNASTY  ·  HARSHAT MATA TEMPLE ADJACENT  ·  ARCHAEOLOGICAL SURVEY OF INDIA</text>
+  <text x="400" y="488" font-size="8" font-style="italic" text-anchor="middle" fill="#666">
+    "The deeper the level, the colder the stone, the older the dark."
+  </text>
+
+  <!-- Depth labels on the tiers (right side) -->
+  <text x="712" y="242" font-size="8" fill="#888" font-style="italic">Ground</text>
+  <text x="712" y="262" font-size="8" fill="#888" font-style="italic">−10 m</text>
+  <text x="712" y="292" font-size="8" fill="#888" font-style="italic">−20 m</text>
+  <text x="712" y="322" font-size="8" fill="#666" font-style="italic">−30 m</text>
+  <text x="712" y="330" font-size="7.5" fill="#5b8db5" font-style="italic">water</text>
+  <line x1="707" y1="108" x2="707" y2="448" stroke="#444" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- FOR AUTHOR note -->
+  <text x="120" y="406" font-size="8" fill="#8B0000" font-weight="bold">FOR THE AUTHOR</text>
+  <text x="120" y="420" font-size="8" fill="#c0a070">What you are looking at is a hole 13 stories deep in the desert.</text>
+  <text x="120" y="433" font-size="8" fill="#c0a070">No one has ever fully explored the bottom. The water is cold.</text>
+  <text x="120" y="446" font-size="8" fill="#c0a070">The steps were built to go down. Not to come back up.</text>
+</svg>
