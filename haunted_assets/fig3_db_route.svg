@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="Georgia, serif">
+  <rect width="800" height="500" fill="#f9f4ed"/>
+
+  <text x="400" y="28" font-size="16" font-weight="bold" text-anchor="middle" fill="#1a1a1a">FIG 3 — CONNECTIVITY: HOW TO REACH DUMAS BEACH</text>
+  <text x="400" y="46" font-size="10" font-style="italic" text-anchor="middle" fill="#666">From Surat · From Mumbai · By road, rail, and local transport</text>
+
+  <!-- ═══ ROUTE A: From Surat ═══ -->
+  <g transform="translate(60, 80)">
+    <rect x="0" y="0" width="680" height="112" fill="#fff8ee" stroke="#8B0000" stroke-width="1.5" rx="3"/>
+    <text x="16" y="22" font-size="11" font-weight="bold" fill="#8B0000">ROUTE A — FROM SURAT CITY  (Primary route — 21 km)</text>
+
+    <!-- Surat Railway Station -->
+    <rect x="16" y="36" width="100" height="50" fill="#2a5a9a" rx="3"/>
+    <text x="66" y="57" font-size="9" font-weight="bold" text-anchor="middle" fill="#fff">SURAT</text>
+    <text x="66" y="70" font-size="8" text-anchor="middle" fill="#cce">Railway / City</text>
+    <text x="66" y="82" font-size="7.5" text-anchor="middle" fill="#aac">Express trains to</text>
+
+    <!-- Arrow + road label -->
+    <line x1="116" y1="61" x2="180" y2="61" stroke="#c8a020" stroke-width="3.5"/>
+    <polygon points="180,57 192,61 180,65" fill="#c8a020"/>
+    <text x="150" y="53" font-size="8" text-anchor="middle" fill="#8a6010">SH-6 / Dumas Rd</text>
+    <text x="150" y="73" font-size="7.5" text-anchor="middle" fill="#8a6010">21 km · ~35 min</text>
+
+    <!-- Dumas -->
+    <rect x="192" y="30" width="110" height="62" fill="#8B0000" rx="3"/>
+    <text x="247" y="52" font-size="10" font-weight="bold" text-anchor="middle" fill="#fff">DUMAS</text>
+    <text x="247" y="66" font-size="8.5" text-anchor="middle" fill="#ffcccc">Beach</text>
+    <text x="247" y="82" font-size="8" text-anchor="middle" fill="#ffaaaa">Former cremation ground</text>
+
+    <!-- Tips box -->
+    <rect x="320" y="36" width="352" height="60" fill="#f0e8d0" stroke="#8a7050" stroke-width="1" rx="2"/>
+    <text x="496" y="54" font-size="9.5" font-weight="bold" text-anchor="middle" fill="#5a3010">Local Transport Options</text>
+    <text x="496" y="68" font-size="8.5" text-anchor="middle" fill="#7a5030">Shared auto / taxi from Surat city — best option</text>
+    <text x="496" y="82" font-size="8.5" text-anchor="middle" fill="#7a5030">GSRTC buses: Surat ST Stand → Dumas (seasonal)</text>
+    <text x="496" y="96" font-size="8" text-anchor="middle" fill="#8a6040">App cabs (Ola/Uber) available from Surat</text>
+  </g>
+
+  <!-- ═══ ROUTE B: From Mumbai ═══ -->
+  <g transform="translate(60, 210)">
+    <rect x="0" y="0" width="680" height="110" fill="#fff8f0" stroke="#5a4030" stroke-width="1.2" rx="3"/>
+    <text x="16" y="22" font-size="11" font-weight="bold" fill="#5a3010">ROUTE B — FROM MUMBAI (~265 km)</text>
+
+    <!-- Mumbai -->
+    <rect x="16" y="34" width="90" height="48" fill="#4a4a9a" rx="3"/>
+    <text x="61" y="55" font-size="9.5" font-weight="bold" text-anchor="middle" fill="#fff">MUMBAI</text>
+    <text x="61" y="68" font-size="8" text-anchor="middle" fill="#cce">Bandra / CST</text>
+
+    <!-- Arrow: Train or Road -->
+    <line x1="106" y1="48" x2="168" y2="48" stroke="#5a4030" stroke-width="2.5"/>
+    <polygon points="168,44 180,48 168,52" fill="#5a4030"/>
+    <text x="138" y="42" font-size="8" text-anchor="middle" fill="#3a2010">Train</text>
+    <text x="138" y="58" font-size="7.5" text-anchor="middle" fill="#3a2010">~2.5–3 hrs</text>
+    <text x="138" y="72" font-size="7" text-anchor="middle" fill="#5a4030">Or NH-48: ~4.5 hrs</text>
+
+    <!-- Surat -->
+    <rect x="180" y="30" width="90" height="56" fill="#2a5a9a" rx="3"/>
+    <text x="225" y="50" font-size="9.5" font-weight="bold" text-anchor="middle" fill="#fff">SURAT</text>
+    <text x="225" y="64" font-size="8" text-anchor="middle" fill="#cce">Railway Stn.</text>
+    <text x="225" y="76" font-size="7.5" text-anchor="middle" fill="#aac">Then taxi/auto</text>
+
+    <line x1="270" y1="58" x2="334" y2="58" stroke="#c8a020" stroke-width="2.5"/>
+    <polygon points="334,54 346,58 334,62" fill="#c8a020"/>
+    <text x="306" y="52" font-size="8" text-anchor="middle" fill="#8a6010">21 km</text>
+
+    <!-- Dumas -->
+    <rect x="346" y="30" width="100" height="56" fill="#8B0000" rx="3"/>
+    <text x="396" y="52" font-size="10" font-weight="bold" text-anchor="middle" fill="#fff">DUMAS</text>
+    <text x="396" y="66" font-size="8.5" text-anchor="middle" fill="#ffcccc">Beach</text>
+    <text x="396" y="80" font-size="8" text-anchor="middle" fill="#ffaaaa">Total: ~4–5 hrs</text>
+
+    <!-- Tip -->
+    <rect x="466" y="34" width="206" height="62" fill="#f0e8d0" stroke="#8a7050" stroke-width="1" rx="2"/>
+    <text x="569" y="52" font-size="8.5" font-weight="bold" text-anchor="middle" fill="#5a3010">Recommended trains</text>
+    <text x="569" y="66" font-size="8" text-anchor="middle" fill="#7a5030">Mumbai–Surat express</text>
+    <text x="569" y="80" font-size="8" text-anchor="middle" fill="#7a5030">multiple daily; book ahead</text>
+    <text x="569" y="92" font-size="7.5" text-anchor="middle" fill="#8a6040">Surat is a major junction</text>
+  </g>
+
+  <!-- ═══ CRITICAL ACCESS NOTES ═══ -->
+  <g transform="translate(60, 338)">
+    <rect x="0" y="0" width="680" height="128" fill="#fff" stroke="#3a2a20" stroke-width="1.2" rx="2"/>
+    <text x="340" y="18" font-size="11" font-weight="bold" text-anchor="middle" fill="#8B0000">CRITICAL ACCESS NOTES FOR THE AUTHOR</text>
+
+    <text x="16" y="36" font-size="8.5" fill="#1a1a1a"><tspan font-weight="bold">DAY ACCESS:</tspan> Freely open public beach — no entry restrictions, no fees. Busy with families,</text>
+    <text x="16" y="50" font-size="8.5" fill="#1a1a1a">food vendors, and leisure visitors from Surat. Peak season: Oct–Feb (winter), school holidays.</text>
+
+    <text x="16" y="68" font-size="8.5" fill="#1a1a1a"><tspan font-weight="bold">NIGHT ACCESS:</tspan> There is NO official prohibition, but local police discourage nighttime</text>
+    <text x="16" y="82" font-size="8.5" fill="#1a1a1a">visitors, particularly during high tide. The beach empties naturally by 9–10 pm in most seasons.</text>
+
+    <text x="16" y="100" font-size="8.5" fill="#1a1a1a"><tspan font-weight="bold">TIDAL WARNING:</tspan> Gulf of Khambhat tides are among Asia's highest. At Dumas, tidal surges</text>
+    <text x="16" y="114" font-size="8.5" fill="#1a1a1a">can be sudden and strong. Several drowning incidents linked to tidal currents at night. Do not</text>
+    <text x="16" y="126" font-size="8" font-style="italic" fill="#8B0000">approach the waterline in darkness without knowing current tide table.</text>
+  </g>
+
+  <text x="400" y="490" font-size="8" font-style="italic" text-anchor="middle" fill="#888">
+    Confirm current tide tables and local conditions before any nocturnal visit
+  </text>
+</svg>

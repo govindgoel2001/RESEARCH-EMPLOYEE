@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="Georgia, serif">
+  <rect width="800" height="500" fill="#f4f0ea"/>
+
+  <text x="400" y="28" font-size="16" font-weight="bold" text-anchor="middle" fill="#1a1a1a">FIG 1 — LOCATION: DUMAS BEACH IN NATIONAL CONTEXT</text>
+  <text x="400" y="46" font-size="10" font-style="italic" text-anchor="middle" fill="#666">Surat District, Gujarat — 21 km southwest of Surat city on the Arabian Sea</text>
+
+  <!-- India outline (simplified polygon) -->
+  <polygon points="
+    310,72  330,58  360,55  395,58  430,60  470,65  510,72
+    545,78  570,88  590,100 608,118 618,135 620,152 618,168
+    610,182 598,195 590,205 580,218 572,232 568,248 572,262
+    580,275 588,288 590,302 585,318 575,330 560,340 542,350
+    525,358 510,365 492,370 475,372 462,370 450,365 440,358
+    432,348 428,338 422,326 415,315 408,305 400,298 392,308
+    384,318 378,330 370,340 358,346 345,348 330,345 318,338
+    308,328 298,315 290,300 284,285 280,270 278,252 280,238
+    282,225 288,212 295,200 302,188 308,175 310,162 308,148
+    304,135 300,122 298,108 300,95  305,82  310,72"
+    fill="#e8d8c0" stroke="#8a7050" stroke-width="1.5"/>
+
+  <!-- Gujarat state highlighted (western peninsular state) -->
+  <polygon points="
+    278,252 280,238 282,225 288,212 295,200 298,188
+    300,175 302,162 304,148 302,135 298,122 296,108
+    298,95  305,82  310,72  310,82  308,95  305,108
+    302,120 300,135 302,148 304,162 305,175 302,188
+    298,202 294,215 290,228 286,240 283,252
+    278,265 276,278 278,290 282,300 288,310 293,318
+    298,325 305,330 312,334 318,336
+    312,328 306,320 300,310 295,298 290,285 286,272 282,260 278,252"
+    fill="#d4a860" opacity="0.7" stroke="#8a6020" stroke-width="1.8"/>
+
+  <!-- Gujarat label -->
+  <text x="300" y="200" font-size="12" font-weight="bold" text-anchor="middle" fill="#6a4010" opacity="0.9">GUJARAT</text>
+
+  <!-- Arabian Sea label -->
+  <text x="190" y="300" font-size="12" font-style="italic" text-anchor="middle" fill="#2a5a7a" opacity="0.8">Arabian Sea</text>
+
+  <!-- Gulf of Khambhat label -->
+  <text x="270" y="260" font-size="9" font-style="italic" text-anchor="middle" fill="#2a5a7a" opacity="0.7">Gulf of</text>
+  <text x="270" y="272" font-size="9" font-style="italic" text-anchor="middle" fill="#2a5a7a" opacity="0.7">Khambhat</text>
+
+  <!-- Surat city dot -->
+  <circle cx="295" cy="310" r="6" fill="#2a5a9a" stroke="#1a3a7a" stroke-width="1.5"/>
+  <text x="307" y="308" font-size="10.5" font-weight="bold" fill="#2a5a9a">Surat</text>
+
+  <!-- Dumas Beach red dot -->
+  <circle cx="282" cy="320" r="7" fill="#8B0000" stroke="#5a0000" stroke-width="1.5"/>
+  <circle cx="282" cy="320" r="3" fill="#ff4444"/>
+  <text x="268" y="330" font-size="10" font-weight="bold" text-anchor="end" fill="#8B0000">Dumas</text>
+  <text x="268" y="342" font-size="8.5" font-style="italic" text-anchor="end" fill="#8B0000">Beach</text>
+
+  <!-- Connector line Surat → Dumas -->
+  <line x1="289" y1="310" x2="284" y2="317" stroke="#8B0000" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <text x="273" y="315" font-size="8" fill="#8B0000" font-style="italic" text-anchor="end">21 km</text>
+
+  <!-- Mumbai dot (for scale reference) -->
+  <circle cx="292" cy="370" r="5" fill="#4a4a9a" stroke="#2a2a7a" stroke-width="1.2"/>
+  <text x="303" y="368" font-size="9.5" font-weight="bold" fill="#4a4a9a">Mumbai</text>
+  <text x="303" y="380" font-size="8" fill="#888">~265 km S</text>
+
+  <!-- Ahmedabad dot -->
+  <circle cx="296" cy="248" r="5" fill="#555" stroke="#333" stroke-width="1"/>
+  <text x="308" y="246" font-size="9" font-weight="bold" fill="#444">Ahmedabad</text>
+
+  <!-- Delhi dot -->
+  <circle cx="418" cy="108" r="5" fill="#4a4a9a" stroke="#2a2a7a" stroke-width="1.2"/>
+  <text x="428" y="106" font-size="9.5" font-weight="bold" fill="#4a4a9a">Delhi</text>
+
+  <!-- Compass -->
+  <g transform="translate(660, 160)">
+    <circle cx="0" cy="0" r="28" fill="#fff" stroke="#5a4030" stroke-width="1.5"/>
+    <polygon points="0,-20 4,0 0,20 -4,0" fill="#8B0000"/>
+    <polygon points="-20,0 0,4 20,0 0,-4" fill="#555"/>
+    <text x="0" y="-28" font-size="13" font-weight="bold" text-anchor="middle" fill="#3a2a20">N</text>
+    <text x="28" y="4" font-size="9" text-anchor="start" fill="#555">E</text>
+    <text x="-28" y="4" font-size="9" text-anchor="end" fill="#555">W</text>
+    <text x="0" y="42" font-size="9" text-anchor="middle" fill="#555">S</text>
+  </g>
+
+  <!-- Scale bar -->
+  <g transform="translate(580, 400)">
+    <line x1="0" y1="0" x2="140" y2="0" stroke="#5a4030" stroke-width="1.5"/>
+    <line x1="0" y1="-5" x2="0" y2="5" stroke="#5a4030" stroke-width="1.5"/>
+    <line x1="70" y1="-4" x2="70" y2="4" stroke="#5a4030" stroke-width="1"/>
+    <line x1="140" y1="-5" x2="140" y2="5" stroke="#5a4030" stroke-width="1.5"/>
+    <text x="0" y="15" font-size="8" text-anchor="middle" fill="#5a4030">0</text>
+    <text x="70" y="15" font-size="8" text-anchor="middle" fill="#5a4030">300</text>
+    <text x="140" y="15" font-size="8" text-anchor="middle" fill="#5a4030">600 km</text>
+  </g>
+
+  <!-- Info box -->
+  <g transform="translate(520, 58)">
+    <rect x="0" y="0" width="262" height="122" fill="#fff" stroke="#3a2a20" stroke-width="1.2" rx="2"/>
+    <text x="131" y="18" font-size="10" font-weight="bold" text-anchor="middle" fill="#8B0000">LOCATION SUMMARY</text>
+    <text x="10" y="34" font-size="8.5" fill="#1a1a1a">State: Gujarat</text>
+    <text x="10" y="48" font-size="8.5" fill="#1a1a1a">District: Surat</text>
+    <text x="10" y="62" font-size="8.5" fill="#1a1a1a">Site: Dumas village / beach</text>
+    <text x="10" y="76" font-size="8.5" fill="#1a1a1a">Surat City: 21 km northeast</text>
+    <text x="10" y="90" font-size="8.5" fill="#1a1a1a">Mumbai: ~265 km south</text>
+    <text x="10" y="104" font-size="8.5" fill="#1a1a1a">Ahmedabad: ~260 km north</text>
+    <text x="10" y="118" font-size="8.5" fill="#1a1a1a">Sea: Arabian Sea / Gulf of Khambhat</text>
+  </g>
+
+  <!-- Western coast highlighting -->
+  <path d="M 278,252 Q 280,265 282,278 Q 283,290 286,302 Q 290,315 295,325 Q 300,332 305,337"
+        fill="none" stroke="#2a5a7a" stroke-width="2" opacity="0.4"/>
+
+  <text x="400" y="490" font-size="8" font-style="italic" text-anchor="middle" fill="#888">
+    Stylized reference map — not to surveyed scale
+  </text>
+</svg>

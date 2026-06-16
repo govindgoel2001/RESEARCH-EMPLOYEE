@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 540" font-family="Georgia, serif">
+  <rect width="800" height="540" fill="#f4f0ea"/>
+
+  <text x="400" y="28" font-size="16" font-weight="bold" text-anchor="middle" fill="#1a1a1a">FIG 2 — REGIONAL MAP: SURAT CITY TO DUMAS COAST</text>
+  <text x="400" y="46" font-size="10" font-style="italic" text-anchor="middle" fill="#666">The 21 km coastal corridor · Tapi River · Hazira industrial zone · Dumas village · Arabian Sea</text>
+
+  <!-- Map canvas -->
+  <rect x="40" y="62" width="720" height="420" fill="#c8d0a8" stroke="#5a4030" stroke-width="1.5" rx="2"/>
+
+  <!-- Arabian Sea (left side) -->
+  <rect x="40" y="62" width="200" height="420" fill="#6aa0c8" opacity="0.55"/>
+  <text x="130" y="270" font-size="14" font-style="italic" text-anchor="middle" fill="#1a4a7a" font-weight="bold">Arabian</text>
+  <text x="130" y="290" font-size="14" font-style="italic" text-anchor="middle" fill="#1a4a7a" font-weight="bold">Sea</text>
+
+  <!-- Gulf of Khambhat (upper left) -->
+  <path d="M 40,62 Q 80,70 120,80 Q 160,90 200,100 L 200,62 Z"
+        fill="#5090b8" opacity="0.7"/>
+  <text x="90" y="88" font-size="9" font-style="italic" text-anchor="middle" fill="#0a3a5a">Gulf of Khambhat</text>
+
+  <!-- Coastline (the boundary between sea and land) -->
+  <path d="M 240,62 Q 238,90 236,120 Q 234,150 232,180 Q 230,210 228,240 Q 226,270 224,300 Q 222,330 220,360 Q 218,390 216,420 Q 214,440 212,462 L 212,482"
+        fill="none" stroke="#2a5a7a" stroke-width="2.5"/>
+  <!-- Coastal fill (land side) -->
+  <path d="M 240,62 L 760,62 L 760,482 L 212,482 L 214,462 Q 216,440 218,420 Q 220,390 222,360 Q 224,330 226,300 Q 228,270 230,240 Q 232,210 234,180 Q 236,150 238,120 Q 239,90 240,62 Z"
+        fill="#c8d0a8"/>
+
+  <!-- Tapi River (flowing W through Surat and into the sea) -->
+  <path d="M 760,175 Q 700,172 640,170 Q 580,168 520,170 Q 460,172 400,175 Q 350,178 300,182 Q 260,188 235,198 Q 218,210 212,225"
+        fill="none" stroke="#5b8db5" stroke-width="8" opacity="0.75"/>
+  <path d="M 760,175 Q 700,172 640,170 Q 580,168 520,170 Q 460,172 400,175 Q 350,178 300,182 Q 260,188 235,198 Q 218,210 212,225"
+        fill="none" stroke="#3a6a9a" stroke-width="2"/>
+  <text x="500" y="162" font-size="11" font-weight="bold" fill="#2a5a7a" font-style="italic">Tapi River</text>
+
+  <!-- Tapi River mouth / delta -->
+  <ellipse cx="218" cy="218" rx="20" ry="12" fill="#5b8db5" opacity="0.6"/>
+  <text x="244" y="218" font-size="8" fill="#2a5a7a" font-style="italic">Tapi mouth</text>
+
+  <!-- SURAT CITY (northeast, on the Tapi River) -->
+  <g transform="translate(560, 182)">
+    <rect x="-60" y="-35" width="120" height="55" fill="#d0c0a0" stroke="#5a4030" stroke-width="1.5" rx="2"/>
+    <!-- City block pattern -->
+    <g stroke="#a09070" stroke-width="0.6" opacity="0.6">
+      <line x1="-40" y1="-35" x2="-40" y2="20"/><line x1="-20" y1="-35" x2="-20" y2="20"/>
+      <line x1="0" y1="-35" x2="0" y2="20"/><line x1="20" y1="-35" x2="20" y2="20"/>
+      <line x1="40" y1="-35" x2="40" y2="20"/>
+      <line x1="-60" y1="-15" x2="60" y2="-15"/><line x1="-60" y1="0" x2="60" y2="0"/>
+    </g>
+    <text x="0" y="-16" font-size="13" font-weight="bold" text-anchor="middle" fill="#3a2010">SURAT</text>
+    <text x="0" y="0" font-size="9" text-anchor="middle" fill="#5a3020">Diamond City</text>
+    <text x="0" y="14" font-size="8" text-anchor="middle" fill="#8a6040">Pop. ~7 million</text>
+  </g>
+
+  <!-- Surat Railway Station marker -->
+  <g transform="translate(600, 230)">
+    <rect x="-25" y="-12" width="50" height="22" fill="#5a4030" rx="2" opacity="0.85"/>
+    <text x="0" y="2" font-size="8" font-weight="bold" text-anchor="middle" fill="#fff">Surat Stn.</text>
+    <text x="0" y="12" font-size="7" text-anchor="middle" fill="#ddd">(Railway)</text>
+  </g>
+
+  <!-- Surat Airport marker -->
+  <g transform="translate(680, 155)">
+    <rect x="-25" y="-12" width="50" height="22" fill="#4a7a3a" rx="2" opacity="0.85"/>
+    <text x="0" y="2" font-size="8" font-weight="bold" text-anchor="middle" fill="#fff">STV</text>
+    <text x="0" y="12" font-size="7" text-anchor="middle" fill="#ddd">Airport</text>
+  </g>
+
+  <!-- HAZIRA INDUSTRIAL ZONE (north of Dumas on the coast) -->
+  <g transform="translate(260, 260)">
+    <rect x="-45" y="-30" width="90" height="55" fill="#c0a878" stroke="#8a7050" stroke-width="1.2" rx="1" opacity="0.9"/>
+    <!-- Industrial chimneys -->
+    <rect x="-35" y="-40" width="8" height="12" fill="#888" stroke="#666" stroke-width="0.8"/>
+    <rect x="-18" y="-44" width="8" height="16" fill="#888" stroke="#666" stroke-width="0.8"/>
+    <rect x="-1" y="-42" width="8" height="14" fill="#888" stroke="#666" stroke-width="0.8"/>
+    <rect x="16" y="-38" width="8" height="10" fill="#888" stroke="#666" stroke-width="0.8"/>
+    <!-- Smoke wisps -->
+    <path d="M -31,-40 Q -28,-50 -25,-40" fill="none" stroke="#aaa" stroke-width="0.8" opacity="0.5"/>
+    <path d="M -14,-44 Q -11,-55 -8,-44" fill="none" stroke="#aaa" stroke-width="0.8" opacity="0.5"/>
+    <text x="0" y="-10" font-size="8.5" font-weight="bold" text-anchor="middle" fill="#3a2010">HAZIRA</text>
+    <text x="0" y="4" font-size="7.5" text-anchor="middle" fill="#5a3010">Industrial Port</text>
+    <text x="0" y="18" font-size="7" text-anchor="middle" fill="#6a4020">(ONGC · NTPC · Essar)</text>
+  </g>
+
+  <!-- Coastal road (running N-S along the coast) -->
+  <path d="M 240,90 Q 238,160 236,230 Q 234,290 232,350 Q 230,400 228,450"
+        fill="none" stroke="#e8c040" stroke-width="7" opacity="0.8"/>
+  <path d="M 240,90 Q 238,160 236,230 Q 234,290 232,350 Q 230,400 228,450"
+        fill="none" stroke="#c8a020" stroke-width="1.5"/>
+  <text x="252" y="370" font-size="8.5" font-weight="bold" fill="#8a6010">Coastal Road</text>
+  <text x="252" y="382" font-size="8" fill="#8a6010">(to Dumas)</text>
+
+  <!-- Road from Surat to Dumas -->
+  <path d="M 560,215 Q 500,240 420,280 Q 360,305 300,325 Q 265,340 240,355"
+        fill="none" stroke="#e8c040" stroke-width="7" opacity="0.75"/>
+  <path d="M 560,215 Q 500,240 420,280 Q 360,305 300,325 Q 265,340 240,355"
+        fill="none" stroke="#c8a020" stroke-width="1.5"/>
+  <text x="420" y="298" font-size="8.5" font-weight="bold" fill="#8a6010">Dumas Rd / SH-6</text>
+  <text x="420" y="310" font-size="8" fill="#8a6010">~21 km · 35 min</text>
+
+  <!-- DUMAS BEACH (the focal point) -->
+  <g transform="translate(238, 365)">
+    <!-- Black sand beach indicator -->
+    <rect x="-25" y="-20" width="50" height="36" fill="#2a2a20" stroke="#8B0000" stroke-width="2.5" rx="1"/>
+    <!-- Wave lines on the beach icon -->
+    <path d="M -20,-10 Q -8,-14 4,-10 Q 16,-6 20,-10" fill="none" stroke="#5b8db5" stroke-width="1"/>
+    <path d="M -20,2 Q -8,-2 4,2 Q 16,6 20,2" fill="none" stroke="#5b8db5" stroke-width="1"/>
+    <text x="0" y="-28" font-size="11" font-weight="bold" text-anchor="middle" fill="#8B0000">DUMAS</text>
+    <text x="0" y="-38" font-size="8.5" text-anchor="middle" fill="#8B0000">BEACH</text>
+    <text x="0" y="28" font-size="8" font-style="italic" text-anchor="middle" fill="#8B0000">Black sand · cremation ground</text>
+  </g>
+
+  <!-- Suvali Beach (further south — also dark sand) -->
+  <g transform="translate(228, 420)">
+    <circle cx="0" cy="0" r="8" fill="#3a3a28" stroke="#888" stroke-width="1"/>
+    <text x="16" y="4" font-size="9" fill="#555">Suvali Beach</text>
+    <text x="16" y="15" font-size="7.5" font-style="italic" fill="#888">(also dark sand; ~8 km S)</text>
+  </g>
+
+  <!-- Compass -->
+  <g transform="translate(696, 100)">
+    <circle cx="0" cy="0" r="22" fill="#fff" stroke="#5a4030" stroke-width="1.5"/>
+    <polygon points="0,-15 4,0 0,15 -4,0" fill="#8B0000"/>
+    <text x="0" y="-24" font-size="12" font-weight="bold" text-anchor="middle" fill="#3a2a20">N</text>
+  </g>
+
+  <!-- Key distances box -->
+  <g transform="translate(380, 375)">
+    <rect x="0" y="0" width="370" height="90" fill="#fff" stroke="#3a2a20" stroke-width="1.2" rx="1"/>
+    <text x="185" y="18" font-size="10" font-weight="bold" text-anchor="middle" fill="#8B0000">KEY DISTANCES FROM DUMAS BEACH</text>
+    <text x="10" y="34" font-size="8.5" fill="#1a1a1a">• Surat City Centre:       21 km (~35 min by road)</text>
+    <text x="10" y="48" font-size="8.5" fill="#1a1a1a">• Surat Railway Station:  25 km (~40 min)</text>
+    <text x="10" y="62" font-size="8.5" fill="#1a1a1a">• Surat Airport (STV):    26 km (~45 min)</text>
+    <text x="10" y="76" font-size="8.5" fill="#1a1a1a">• Mumbai:                ~265 km (4–5 hrs via NH-48)</text>
+  </g>
+
+  <text x="400" y="530" font-size="8" font-style="italic" text-anchor="middle" fill="#888">
+    Schematic map — positions approximate; coastline simplified
+  </text>
+</svg>

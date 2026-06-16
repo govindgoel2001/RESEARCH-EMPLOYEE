@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="Georgia, serif">
+  <rect width="800" height="500" fill="#f9f4ed"/>
+
+  <text x="400" y="30" font-size="16" font-weight="bold" text-anchor="middle" fill="#1a1a1a">FIG 7 — EVIDENCE PYRAMID: DUMAS BEACH</text>
+  <text x="400" y="48" font-size="11" font-style="italic" text-anchor="middle" fill="#666">What is verified · documented · inferred · folklore · speculation</text>
+
+  <!-- Tier 1: VERIFIED -->
+  <polygon points="352,78 448,78 468,118 332,118" fill="#2c5a2c" stroke="#1a1a1a" stroke-width="1.2"/>
+  <text x="400" y="103" font-size="12" font-weight="bold" text-anchor="middle" fill="#fff">VERIFIED</text>
+
+  <!-- Tier 2: DOCUMENTED -->
+  <polygon points="332,122 468,122 492,164 308,164" fill="#5b8db5" stroke="#1a1a1a" stroke-width="1.2"/>
+  <text x="400" y="148" font-size="12" font-weight="bold" text-anchor="middle" fill="#fff">DOCUMENTED</text>
+
+  <!-- Tier 3: INFERRED -->
+  <polygon points="308,168 492,168 520,212 280,212" fill="#d4a574" stroke="#1a1a1a" stroke-width="1.2"/>
+  <text x="400" y="194" font-size="12" font-weight="bold" text-anchor="middle" fill="#1a1a1a">INFERRED / THEORY</text>
+
+  <!-- Tier 4: FOLKLORE -->
+  <polygon points="280,216 520,216 552,262 248,262" fill="#c97a5a" stroke="#1a1a1a" stroke-width="1.2"/>
+  <text x="400" y="243" font-size="12" font-weight="bold" text-anchor="middle" fill="#fff">FOLKLORE</text>
+
+  <!-- Tier 5: SPECULATION -->
+  <polygon points="248,266 552,266 592,315 208,315" fill="#888" stroke="#1a1a1a" stroke-width="1.2"/>
+  <text x="400" y="294" font-size="12" font-weight="bold" text-anchor="middle" fill="#fff">SPECULATION / RUMOUR</text>
+
+  <!-- Right column examples -->
+  <line x1="468" y1="98" x2="608" y2="98" stroke="#1a1a1a" stroke-width="0.6"/>
+  <text x="613" y="94" font-size="8" font-weight="bold" fill="#2c5a2c">VERIFIED</text>
+  <text x="613" y="106" font-size="8" fill="#1a1a1a">• Beach exists; sand is darker than typical (mineral content)</text>
+  <text x="613" y="117" font-size="8" fill="#1a1a1a">• Gulf of Khambhat has extreme tidal currents</text>
+
+  <line x1="492" y1="144" x2="608" y2="144" stroke="#1a1a1a" stroke-width="0.6"/>
+  <text x="613" y="140" font-size="8" font-weight="bold" fill="#5b8db5">DOCUMENTED</text>
+  <text x="613" y="152" font-size="8" fill="#1a1a1a">• Historical cremation ground (centuries of use)</text>
+  <text x="613" y="163" font-size="8" fill="#1a1a1a">• 1994 Surat plague — intense cremation activity at beach</text>
+
+  <line x1="520" y1="190" x2="608" y2="190" stroke="#1a1a1a" stroke-width="0.6"/>
+  <text x="613" y="186" font-size="8" font-weight="bold" fill="#8a6532">INFERRED</text>
+  <text x="613" y="198" font-size="8" fill="#1a1a1a">• Drowning deaths (night tides) misattributed to haunting</text>
+  <text x="613" y="210" font-size="8" fill="#1a1a1a">• Sea-wind through black sand creates auditory phenomena</text>
+
+  <line x1="552" y1="240" x2="608" y2="240" stroke="#1a1a1a" stroke-width="0.6"/>
+  <text x="613" y="236" font-size="8" font-weight="bold" fill="#8b3a1a">FOLKLORE</text>
+  <text x="613" y="248" font-size="8" fill="#1a1a1a">• "Don't answer if your name is called" at night</text>
+  <text x="613" y="260" font-size="8" fill="#1a1a1a">• Dogs bark at invisible presences all night</text>
+
+  <line x1="590" y1="290" x2="608" y2="290" stroke="#1a1a1a" stroke-width="0.6"/>
+  <text x="613" y="286" font-size="8" font-weight="bold" fill="#555">SPECULATION</text>
+  <text x="613" y="298" font-size="8" fill="#1a1a1a">• Electromagnetic anomalies prevent equipment function</text>
+  <text x="613" y="310" font-size="8" fill="#1a1a1a">• The black sand itself is sentient / spiritually charged</text>
+
+  <!-- Left column criteria -->
+  <line x1="332" y1="98" x2="200" y2="98" stroke="#2c5a2c" stroke-width="0.6"/>
+  <text x="198" y="96" font-size="8" text-anchor="end" fill="#2c5a2c">→ physical evidence confirmed</text>
+
+  <line x1="308" y1="144" x2="200" y2="144" stroke="#5b8db5" stroke-width="0.6"/>
+  <text x="198" y="142" font-size="8" text-anchor="end" fill="#5b8db5">→ census / colonial records</text>
+
+  <line x1="280" y1="190" x2="200" y2="190" stroke="#8a6532" stroke-width="0.6"/>
+  <text x="198" y="188" font-size="8" text-anchor="end" fill="#8a6532">→ physical explanation</text>
+  <text x="198" y="200" font-size="8" text-anchor="end" fill="#8a6532">   plausible; unconfirmed</text>
+
+  <line x1="248" y1="240" x2="200" y2="240" stroke="#8b3a1a" stroke-width="0.6"/>
+  <text x="198" y="238" font-size="8" text-anchor="end" fill="#8b3a1a">→ widespread oral tradition;</text>
+  <text x="198" y="250" font-size="8" text-anchor="end" fill="#8b3a1a">   no primary source</text>
+
+  <line x1="210" y1="290" x2="200" y2="290" stroke="#555" stroke-width="0.6"/>
+  <text x="198" y="288" font-size="8" text-anchor="end" fill="#555">→ no verifiable source</text>
+
+  <!-- Author note box -->
+  <g transform="translate(50, 330)">
+    <rect x="0" y="0" width="700" height="84" fill="#fff" stroke="#3a2a20" stroke-width="1.2"/>
+    <text x="350" y="20" font-size="11" font-weight="bold" text-anchor="middle" fill="#8B0000">FOR THE AUTHOR</text>
+    <text x="350" y="38" font-size="9" text-anchor="middle" fill="#1a1a1a">
+      Dumas Beach has the most PHYSICALLY GROUNDED haunting tradition in this series. The cremation ground history is documented. The tidal danger is real.
+    </text>
+    <text x="350" y="54" font-size="9" text-anchor="middle" fill="#1a1a1a">
+      The "don't answer your name" rule is the most specific and memorable piece of folklore — it creates a protocol, not just an atmosphere.
+    </text>
+    <text x="350" y="70" font-size="9" font-style="italic" text-anchor="middle" fill="#8B0000">
+      The beach is haunted by centuries of actual dead. Every piece of folklore is an explanation for something that is genuinely strange about this place.
+    </text>
+  </g>
+
+  <text x="400" y="490" font-size="8" font-style="italic" text-anchor="middle" fill="#888">
+    Every claim in this dossier is tagged with one of these tiers
+  </text>
+</svg>

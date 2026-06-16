@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 540" font-family="Georgia, serif">
+  <rect width="800" height="540" fill="#f4f0ea"/>
+
+  <text x="400" y="28" font-size="16" font-weight="bold" text-anchor="middle" fill="#1a1a1a">FIG 5 — BEACH LAYOUT: DUMAS — ZONES &amp; LANDMARKS</text>
+  <text x="400" y="46" font-size="10" font-style="italic" text-anchor="middle" fill="#666">Schematic plan view · Black sand zone · Former cremation area · Hanuman temple · Day vs. night character</text>
+
+  <!-- Map canvas -->
+  <rect x="40" y="62" width="720" height="428" fill="#d0c8a8" stroke="#5a4030" stroke-width="1.5" rx="2"/>
+
+  <!-- Arabian Sea (left side — west) -->
+  <rect x="40" y="62" width="180" height="428" fill="#5090b8" opacity="0.6"/>
+  <text x="118" y="268" font-size="13" font-style="italic" text-anchor="middle" fill="#1a4a7a" font-weight="bold">Arabian</text>
+  <text x="118" y="286" font-size="13" font-style="italic" text-anchor="middle" fill="#1a4a7a" font-weight="bold">Sea</text>
+
+  <!-- Wave action (repeated wave lines) -->
+  <g fill="none" stroke="#a0c0e0" stroke-width="1" opacity="0.4">
+    <path d="M 40,130 Q 60,125 80,130 Q 100,135 120,130 Q 140,125 160,130 Q 180,135 200,130 Q 210,128 220,130"/>
+    <path d="M 40,170 Q 60,165 80,170 Q 100,175 120,170 Q 140,165 160,170 Q 180,175 200,170 Q 210,168 220,170"/>
+    <path d="M 40,210 Q 60,205 80,210 Q 100,215 120,210 Q 140,205 160,210 Q 180,215 200,210 Q 210,208 220,210"/>
+    <path d="M 40,250 Q 60,245 80,250 Q 100,255 120,250 Q 140,245 160,250 Q 180,255 200,250 Q 210,248 220,250"/>
+    <path d="M 40,290 Q 60,285 80,290 Q 100,295 120,290 Q 140,285 160,290 Q 180,295 200,290 Q 210,288 220,290"/>
+    <path d="M 40,330 Q 60,325 80,330 Q 100,335 120,330 Q 140,325 160,330 Q 180,335 200,330 Q 210,328 220,330"/>
+    <path d="M 40,370 Q 60,365 80,370 Q 100,375 120,370 Q 140,365 160,370 Q 180,375 200,370 Q 210,368 220,370"/>
+    <path d="M 40,410 Q 60,405 80,410 Q 100,415 120,410 Q 140,405 160,410 Q 180,415 200,410 Q 210,408 220,410"/>
+    <path d="M 40,450 Q 60,445 80,450 Q 100,455 120,450 Q 140,445 160,450 Q 180,455 200,450 Q 210,448 220,450"/>
+  </g>
+
+  <!-- THE BLACK SAND BEACH ZONE (the distinctive dark band between sea and road) -->
+  <rect x="218" y="62" width="80" height="428" fill="#2a2820" stroke="#8B0000" stroke-width="2" opacity="0.85"/>
+  <text x="258" y="178" font-size="9.5" font-weight="bold" text-anchor="middle" fill="#e8d070" transform="rotate(-90, 258, 178)">BLACK SAND BEACH — c. 80m wide</text>
+
+  <!-- Beach zones: NORTH (former cremation area) -->
+  <rect x="220" y="64" width="76" height="120" fill="#1a1810" opacity="0.95" stroke="#8B0000" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="258" y="108" font-size="8" font-weight="bold" text-anchor="middle" fill="#ff6666">FORMER</text>
+  <text x="258" y="120" font-size="8" font-weight="bold" text-anchor="middle" fill="#ff6666">CREMATION</text>
+  <text x="258" y="132" font-size="8" font-weight="bold" text-anchor="middle" fill="#ff6666">AREA</text>
+  <text x="258" y="148" font-size="7.5" text-anchor="middle" fill="#cc4444">(historic)</text>
+  <text x="258" y="162" font-size="7" font-style="italic" text-anchor="middle" fill="#aa3333">still avoided at night</text>
+
+  <!-- Beach CENTRE zone -->
+  <text x="258" y="300" font-size="8.5" font-weight="bold" text-anchor="middle" fill="#e8d070">MAIN</text>
+  <text x="258" y="312" font-size="8.5" font-weight="bold" text-anchor="middle" fill="#e8d070">BEACH</text>
+  <text x="258" y="326" font-size="7.5" text-anchor="middle" fill="#c0b050">family zone by day</text>
+
+  <!-- Beach SOUTH zone (food stalls side) -->
+  <text x="258" y="420" font-size="8" text-anchor="middle" fill="#c0a840">food stalls /</text>
+  <text x="258" y="432" font-size="8" text-anchor="middle" fill="#c0a840">parking south end</text>
+
+  <!-- Coastal road (running N-S, east of beach) -->
+  <rect x="298" y="62" width="22" height="428" fill="#e8c040" stroke="#c8a020" stroke-width="1.2" opacity="0.85"/>
+  <text x="309" y="278" font-size="8.5" font-weight="bold" text-anchor="middle" fill="#3a2010" transform="rotate(-90, 309, 278)">DUMAS ROAD (coastal)</text>
+
+  <!-- Land east of road -->
+  <!-- NORTH section: Sparse village + Hazira visible in distance -->
+  <rect x="320" y="62" width="440" height="140" fill="#c0b890" opacity="0.8"/>
+  <text x="480" y="100" font-size="10" font-style="italic" text-anchor="middle" fill="#5a4030">Hazira industrial area visible N (3 km)</text>
+  <text x="480" y="116" font-size="8.5" text-anchor="middle" fill="#6a5040">ONGC / NTPC / Essar plants</text>
+  <!-- Industrial silhouette on horizon -->
+  <g fill="#888" opacity="0.35">
+    <rect x="360" y="78" width="10" height="28"/><rect x="378" y="72" width="10" height="34"/>
+    <rect x="396" y="80" width="10" height="26"/><rect x="414" y="74" width="10" height="32"/>
+    <rect x="432" y="82" width="10" height="24"/>
+  </g>
+
+  <!-- HANUMAN TEMPLE (Dariya Mahal — on the coastal road, mid-beach) -->
+  <g transform="translate(340, 260)">
+    <rect x="-30" y="-28" width="60" height="52" fill="#d4a060" stroke="#8a5a20" stroke-width="2"/>
+    <polygon points="0,-44 10,-28 -10,-28" fill="#d4a060" stroke="#8a5a20" stroke-width="1.5"/>
+    <circle cx="0" cy="-46" r="6" fill="#e8c070" stroke="#8a5a20" stroke-width="1"/>
+    <path d="M -14,2 Q 0,-12 14,2 L 14,15 L -14,15 Z" fill="#5a3020" opacity="0.7"/>
+    <rect x="-28" y="-28" width="56" height="12" fill="#e8c878" opacity="0.6"/>
+    <text x="0" y="-56" font-size="10" font-weight="bold" text-anchor="middle" fill="#8B0000">DARIYA MAHAL</text>
+    <text x="0" y="-66" font-size="8.5" text-anchor="middle" fill="#8B0000">HANUMAN TEMPLE</text>
+    <text x="0" y="34" font-size="8" font-style="italic" text-anchor="middle" fill="#5a3010">"protects the shore"</text>
+    <text x="0" y="45" font-size="7.5" text-anchor="middle" fill="#888">(active worship site)</text>
+  </g>
+
+  <!-- DUMAS VILLAGE (east of coastal road, centre section) -->
+  <g transform="translate(490, 280)">
+    <ellipse cx="0" cy="0" rx="80" ry="60" fill="#d8c8a0" stroke="#8a7050" stroke-width="1.2" opacity="0.7"/>
+    <!-- Village building clusters -->
+    <g fill="#c8b880" stroke="#8a6840" stroke-width="0.8">
+      <rect x="-60" y="-30" width="22" height="16"/><rect x="-32" y="-34" width="18" height="14"/>
+      <rect x="-8" y="-30" width="20" height="16"/><rect x="18" y="-32" width="16" height="14"/>
+      <rect x="40" y="-28" width="20" height="15"/><rect x="-55" y="-8" width="16" height="14"/>
+      <rect x="-34" y="-10" width="20" height="15"/><rect x="-8" y="-8" width="18" height="15"/>
+      <rect x="16" y="-10" width="20" height="14"/><rect x="42" y="-6" width="16" height="14"/>
+      <rect x="-50" y="12" width="22" height="15"/><rect x="-22" y="14" width="18" height="14"/>
+      <rect x="8" y="12" width="20" height="15"/><rect x="36" y="14" width="18" height="13"/>
+    </g>
+    <text x="0" y="-52" font-size="11" font-weight="bold" text-anchor="middle" fill="#3a2010">DUMAS VILLAGE</text>
+    <text x="0" y="56" font-size="8.5" font-style="italic" text-anchor="middle" fill="#5a4030">~3,000 residents; no tourist hotels</text>
+  </g>
+
+  <!-- Food stall area (south section) -->
+  <g transform="translate(400, 400)">
+    <rect x="-60" y="-18" width="120" height="36" fill="#e8c878" stroke="#8a6030" stroke-width="1" rx="2"/>
+    <text x="0" y="-2" font-size="8.5" font-weight="bold" text-anchor="middle" fill="#3a2010">FOOD STALL AREA</text>
+    <text x="0" y="12" font-size="8" text-anchor="middle" fill="#5a3010">bhel puri · corn · chai</text>
+    <text x="0" y="26" font-size="7.5" font-style="italic" text-anchor="middle" fill="#888">busy by day; empty at night</text>
+  </g>
+
+  <!-- Parking area -->
+  <rect x="500" y="398" width="80" height="44" fill="#c8b890" stroke="#8a7050" stroke-width="1" rx="1" opacity="0.7"/>
+  <text x="540" y="416" font-size="8" text-anchor="middle" fill="#5a4030">PARKING</text>
+  <text x="540" y="428" font-size="7.5" text-anchor="middle" fill="#888">/ bus stop</text>
+
+  <!-- Direction to Surat -->
+  <text x="680" y="120" font-size="8.5" text-anchor="end" fill="#5a4030">→ Surat City (21 km NE)</text>
+
+  <!-- Compass -->
+  <g transform="translate(696, 108)">
+    <circle cx="0" cy="0" r="20" fill="#fff" stroke="#5a4030" stroke-width="1.5"/>
+    <polygon points="0,-13 3,0 0,13 -3,0" fill="#8B0000"/>
+    <text x="0" y="-22" font-size="11" font-weight="bold" text-anchor="middle" fill="#3a2a20">N</text>
+  </g>
+
+  <!-- Day/Night duality note -->
+  <g transform="translate(340, 430)">
+    <rect x="0" y="0" width="400" height="48" fill="#fff" stroke="#3a2a20" stroke-width="1.2" rx="1"/>
+    <text x="200" y="16" font-size="9.5" font-weight="bold" text-anchor="middle" fill="#8B0000">THE DAY / NIGHT DUALITY</text>
+    <text x="200" y="30" font-size="8.5" text-anchor="middle" fill="#1a1a1a">DAY: Families, food, laughter — Surat's favourite picnic beach</text>
+    <text x="200" y="43" font-size="8.5" text-anchor="middle" fill="#8B0000">NIGHT: Empty. Dogs barking. Black sand invisible in darkness. Tide coming in.</text>
+  </g>
+
+  <text x="400" y="530" font-size="8" font-style="italic" text-anchor="middle" fill="#888">
+    Stylized site plan — zone boundaries approximate; beach width varies seasonally
+  </text>
+</svg>
